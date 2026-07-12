@@ -1,0 +1,403 @@
+---
+title: "Sulfonamides and Trimethoprim; Trimethoprim-Sulfamethoxazole"
+subtitle: "Chapter 33"
+author:
+  - name: Robert C. Colgrove
+  - name: Stephen H. Zinner
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: true
+bibliography: references.bib
+---
+
+## Short View Summary
+
+::: {.callout-note}
+## Key Points
+
+- Among the earliest antimicrobial compounds in clinical use, sulfonamides remain useful for the treatment of a wide variety of infections, including those caused by gram-negative enteric bacteria in urinary tract infections, gram-positive cocci such as methicillin-resistant *Staphylococcus aureus* (MRSA) skin and soft-tissue infection, protozoans including *Toxoplasma gondii*, and fungi such as *Pneumocystis jirovecii*.
+
+- Today, sulfonamides are most frequently used with trimethoprim as a fixed-dose combination of 160 mg/800 mg of trimethoprim-sulfamethoxazole (TMP-SMX).
+
+- The most common adverse reactions to sulfonamides include leukopenia, thrombocytopenia, acute hemolytic anemia, nausea, vomiting, rash, and fever. The adverse effects of TMP-SMX are similar to those seen with sulfonamides alone and are more frequent in human immunodeficiency virus (HIV)-infected patients.
+
+- Less common but serious adverse reactions include agranulocytosis, aplastic anemia, acute tubular necrosis, interstitial nephritis, drug-induced lupus, toxic epidermal necrolysis, and Stevens-Johnson syndrome. The risk of kernicterus precludes the use of sulfonamides in late pregnancy.
+
+- TMP-SMX is indicated for the prophylaxis of *P. jirovecii* in immunocompromised patients, including those with HIV infection.
+:::
+
+## Introduction
+
+The modern era of antimicrobial chemotherapy began in 1932 with the first reports by Domagk of the protective activity of sulfonamidochrysoidine (Prontosil) against a murine model of *Streptococcus pyogenes* infections [@Domagk1935]. This drug was developed initially by the German dye industry and had been available commercially since the early 20th century. Sulfonamidochrysoidine exerted its antibacterial activity through the release in vivo of para-aminobenzene sulfonamide (sulfanilamide). This was the first antibacterial agent used in the United States, in July 1935, in an unsuccessful attempt to treat a 10-year-old girl late in the course of meningitis and sepsis caused by *Haemophilus influenzae*.
+
+During the late 1930s, the basic sulfanilamide compound was modified to remove unpleasant side effects and expand its spectrum of activity, resulting in compounds with distinctive properties—for example, compounds that are concentrated in the kidney for the treatment of urinary tract infections (UTIs) or nonabsorbable compounds for increased activity within the gastrointestinal tract.
+
+Trimethoprim is a 2,4-diaminopyrimidine that inhibits dihydrofolate reductase (DHFR), resulting in interference in folic acid and pyrimidine synthesis in the bacterial cell. Trimethoprim was one of several such compounds synthesized and studied by Hitchings and coworkers in the 1950s and 1960s. The use of trimethoprim as a potentiator of sulfonamide activity was introduced by Bushby and Hitchings in 1968 [@Bushby1968]. In the subsequent decade, the combination of trimethoprim-sulfamethoxazole (TMP-SMX) was introduced clinically and gained a role in chemotherapy for many infectious diseases. TMP-SMX, available in a fixed drug combination, shows true antibacterial synergism against a wide variety of organisms.
+
+## Sulfonamides
+
+### Structure
+
+The clinically useful sulfonamides are derived from sulfanilamide, which is similar in structure to para-aminobenzoic acid (PABA), a compound required by bacteria for folic acid synthesis (@fig-sulfonamides). A free amino group at the 4-carbon position is associated with enhanced activity. Increased PABA inhibition that results in enhanced antibacterial activity is associated with substitutions at the sulfonyl radical (SO₂), which is attached to the 1-carbon, as seen with sulfadiazine, sulfisoxazole, and sulfamethoxazole, all of which are more active than the parent compound, sulfanilamide.
+
+The nature of these substitutions determines other pharmacologic properties of the drug, such as absorption, solubility, and gastrointestinal tolerance. Substitutions at the 4-amino group result in decreased absorption from the gastrointestinal tract (e.g., phthalylsulfathiazole).
+
+![Sulfonamides. (A–F) Structural formulas of selected sulfonamides including sulfanilamide, para-aminobenzoic acid, sulfadiazine, sulfisoxazole, sulfamethoxazole, and sulfathalidine (phthalylsulfathiazole).](images/fig33-005.png){#fig-sulfonamides}
+
+### Derivation and Nomenclature
+
+Since the introduction of sulfonamides into clinical medicine, dozens of compounds have been used. Relatively few survive today, however. The various compounds can be classified as:
+
+1. Short-acting or medium-acting sulfonamides
+2. Long-acting sulfonamides
+3. Sulfonamides limited to the gastrointestinal tract
+4. Topical sulfonamides
+
+Many branded sulfonamide preparations have been discontinued or replaced by generic products.
+
+### Short-Acting or Medium-Acting Sulfonamides
+
+**Sulfisoxazole** (*United States Pharmacopeia* [USP]), **sulphafurazole** (*British Pharmacopeia*), and *N'*-(3,4-dimethyl-5-isoxazolyl) sulfanilamide are available to treat UTIs.
+
+**Sulfamethoxazole** USP, *N'*-(5-methyl-3-isoxazolyl) sulfanilamide, is less soluble than sulfisoxazole and yields higher blood levels. It is the sulfonamide most frequently combined with trimethoprim.
+
+**Sulfadiazine** USP (*N'*-2-pyrimidinylsulfanilamide) is highly active, attains high blood and cerebrospinal fluid (CSF) levels, and is associated with low protein binding and lower solubility than the previously mentioned drugs.
+
+Short-acting sulfonamides also are available in several combinations. Sulfisoxazole and sulfamethoxazole have been combined with phenazopyridine, a urinary analgesic.
+
+### Long-Acting Sulfonamides
+
+**Sulfamethoxypyridazine** (*N'*-[6-methoxy-3-pyridazinyl] sulfanilamide) and **sulfameter** (*N'*-[5-methoxy-2-pyrimidinyl] sulfanilamide) are no longer available for single-daily-dose therapy because they were associated with hypersensitivity reactions such as Stevens-Johnson syndrome. Neither sulfadimethoxine nor any other long-acting sulfonamide is currently available in the United States.
+
+**Sulfadoxine**, originally known as *sulformethoxine* (*N'*-[5,6-dimethoxy-4-pyrimidyl] sulfanilamide), is a very-long-acting sulfonamide that, combined with pyrimethamine, was formerly available in the United States. Sulfadoxine has a half-life of 100–230 hours and reaches a peak serum level of 51 to 76 µg/mL 2.5 to 6 hours after an oral dose of 500 mg. Although resistance is noted, this combination is still used in malaria prophylaxis during pregnancy in some countries.
+
+### Sulfonamides Limited to the Gastrointestinal Tract
+
+**Sulfaguanidine** (*N'*-[diaminomethylene] sulfanilamide), **sulfasuxidine** (succinylsulfathiazole [4'-{2-thiazolylsulfamoyl}] succinanilic acid), and **sulfathalidine** (phthalylsulfathiazole [4'-{2-thiazolylsulfamoyl}] phthalanilic acid) are relatively poorly absorbed from the gastrointestinal tract. They have been used in the past to suppress the susceptible bowel flora before surgery.
+
+**Salicylazosulfapyridine** (sulfasalazine, Azulfidine) is a sulfonamide derivative used to treat ulcerative colitis. This drug is absorbed in its parent form as sulfapyridine, and significant blood levels of this compound are measurable.
+
+### Topical Sulfonamides
+
+**Mafenide acetate** (para-aminomethylbenzene sulfonamide) is available for use in the topical treatment of burns. Its use has been limited, however, by metabolic acidosis caused by carbonic anhydrase inhibition.
+
+**Silver sulfadiazine** has fewer side effects and is used for burns, although other silver compounds are being introduced. In these formulations, the sulfonamide acts primarily as a vehicle for release of silver ions that exert an antibacterial effect. Outbreaks of silver-resistant infections in burn units ultimately may limit its usefulness.
+
+Various combinations of other sulfonamides are available as vaginal creams or suppositories. A variety of ophthalmic ointments and solutions of **sulfacetamide sodium** USP (a highly soluble sulfonamide) are available for use in the treatment of conjunctivitis caused by susceptible bacteria and as adjunctive therapy for trachoma. Sulfacetamide is also used as an antiinflammatory and antimicrobial agent in the treatment of acne, rosacea, and seborrheic dermatitis.
+
+### Mechanisms of Action
+
+Although a wide variety of chemical modifications of the sulfonamides have been synthesized, all basically share the same mechanism of action. The sulfonamides are bacteriostatic in that they inhibit bacterial growth by interfering with microbial folic acid synthesis [@Woods1940]. More specifically, sulfonamides inhibit competitively the incorporation of PABA into dihydropteroate, and they may be incorporated into dihydropteroate. Sulfonamides may have a higher affinity for the microbial enzyme dihydropteroate synthase than the natural substrate PABA [@Richmond1962].
+
+Richmond suggested that sulfonamides may act on bacterial repressor genes or by feedback inhibition to decrease formation of new enzymes. The ultimate result of decreased folic acid synthesis is a decrease in bacterial nucleotides, with subsequent inhibition of bacterial growth.
+
+### Antimicrobial Activity In Vitro
+
+Sulfonamides exhibit in vitro inhibitory activity against a broad spectrum of gram-positive and gram-negative bacteria; *Mycobacterium*, *Actinomyces*, *Chlamydia*, *Plasmodium*, and *Toxoplasma* spp. and some fungi. Sulfamethoxazole is also active against *Acanthamoeba* strains. The in vitro antimicrobial activity of sulfonamides is influenced strongly by the size of the inoculum and the composition of the test medium. High concentrations of PABA and thymidine inhibit sulfonamide activity.
+
+### Antimicrobial Resistance
+
+Resistance to sulfonamides is widespread and increasingly common in community-acquired and nosocomial strains of bacteria, including streptococci, staphylococci, Enterobacterales (formerly known as the Enterobacteriaceae), *Neisseria* spp., and *Pseudomonas* spp. Cross-resistance among different sulfonamides is common. In recent decades, sulfonamide resistance in Enterobacterales and gram-positive bacteria has increased substantially [@Huovinen2001; @Sköld2000].
+
+::: {.callout-warning}
+## Resistance Mechanisms
+
+Organisms may develop point mutations in the *folP* gene, which encodes a structural change in dihydropteroate synthase that produces an enzyme with lowered affinity for sulfonamide. The PABA binding site may be altered by F28L/T and P64S substitutions in *Escherichia coli*. PABA overproduction has been implicated in resistant strains of *Neisseria gonorrhoeae* and *Staphylococcus aureus*.
+
+Resistance also may be mediated by integrons that carry *sul1*, *sul2*, and *sul3* genes, which code for the production of drug-resistant enzymes, such as dihydropteroate synthase, or by plasmids that decrease bacterial cell permeability to sulfonamides. Plasmid transfer can occur in the gastrointestinal tract in vivo and has been seen with multiple species of *Enterobacterales*. More than one resistance mechanism may be operating simultaneously.
+:::
+
+Plasmid-mediated sulfonamide resistance in diverse species has increased greatly in recent years, often in conjunction with trimethoprim resistance. The majority of *Salmonella* isolates from human or animal origin are resistant to sulfonamides, often in conjunction with resistance to other antibiotic classes. The presence of the *sul2* gene is responsible for high-level sulfonamide resistance among *Shigella* isolates in Latin America. A US survey showed that 32% of *Shigella* isolates were sulfonamide resistant, as are more than 75% of isolates in China. TMP-SMX resistance in isolates from China were found to be associated with acquisition of mutant *sul1* and *sul2* dihydropteroate synthase genes.
+
+The increase in sulfonamide-resistant *Haemophilus ducreyi* in Asia and Africa has been associated with a plasmid related to those found in *Enterobacterales*. Bacterial resistance to sulfonamides increased among human immunodeficiency virus (HIV)–infected patients during the era of increased use of TMP-SMX prophylaxis.
+
+### Pharmacology
+
+#### Routes of Administration
+
+Although an intravenous (IV) formulation of TMP-SMX is available, sulfonamides are usually administered orally. Sulfacetamide is available as a topical cream, ointment, or lotion and in ophthalmic preparations; silver sulfadiazine and mafenide acetate are applied topically in burn patients and are associated with significant percutaneous absorption of sulfonamide. Vaginal preparations are available for topical application.
+
+#### Absorption
+
+Most of the short-acting and medium-acting sulfonamides are absorbed rapidly and almost completely in the nonionized state from the small intestine and stomach. Compounds with *N*-1 substitutions are absorbed poorly, as are more acidic compounds (e.g., phthalylsulfathiazole; see @fig-sulfonamides). Topical sulfonamides are absorbed and may be detectable in blood.
+
+#### Distribution
+
+The sulfonamides are generally well distributed throughout the body, entering the CSF and synovial, pleural, and peritoneal fluids with concentrations approaching 80% of serum levels. Blood and tissue levels are related to the degree of protein binding (@tbl-sulfonamide-pk) and lipid solubility. Sulfonamides administered in pregnancy readily cross the placenta and are present in the fetal blood and amniotic fluid.
+
+| Drug | Peak Blood Level (mg/mL)^a^ | Level in CSF (%) | Plasma Half-Life (hr) | Protein Binding (%) |
+|------|:---------------------------:|:----------------:|:---------------------:|:-------------------:|
+| Sulfadiazine | 30–60 | 40–80 | 17 | 45 |
+| Sulfisoxazole | 40–50 | 30–50 | 5–6 | 92 |
+| Sulfamethoxazole | 80–100 | 25–30 | 11 | 70 |
+| Sulfadoxine | 50–75 | 20–30 | 100–230 | 80–98 |
+
+: Pharmacokinetic properties of selected sulfonamides {#tbl-sulfonamide-pk}
+
+^a^ Approximate free sulfonamide level after a 2-g oral dose.
+
+*CSF*, Cerebrospinal fluid.
+
+#### Metabolism and Excretion
+
+Acetylation and glucuronidation occur in the liver, and free and metabolized drug appear in the urine. Glomerular filtration is probably a route of excretion, although partial reabsorption and active tubular secretion are also involved, especially at low creatinine clearance rates. Urinary excretion is more rapid for sulfonamides with low pK~a~ values (e.g., sulfamethizole, sulfisoxazole), and alkalinization of the urine increases excretion by this route. Plasma half-lives vary widely; they are related inversely to lipid solubility and directly to pK~a~ values but are not related clearly to the degree of protein binding. Small amounts of sulfonamides are found in bile, human milk, prostatic secretions, saliva, and tears.
+
+Sulfamethoxazole is primarily metabolized by the CYP2C9 hepatic enzyme system, but also by CYP3A4, and the substrate inhibits the activity of CYP2C9. Excretion may be decreased in older patients, especially those with decreased creatinine clearance. Sulfadoxine half-life and area under the concentration-time curve (AUC) are reduced and clearance is increased during pregnancy.
+
+#### Protein Binding and Blood or Tissue Levels
+
+Sulfonamides are bound variably and reversibly to plasma albumin, and the bound drug is inactive (see @tbl-sulfonamide-pk). Levels obtainable in CSF and other body fluids are related inversely to the degree of protein binding. The amount of free drug in plasma is related directly to the pK~a~.
+
+### Toxicity and Adverse Reactions
+
+Sulfonamides can cause nausea, vomiting, diarrhea, rash, fever, headache, depression, jaundice, hepatic necrosis, drug-induced lupus, and a serum sickness–like syndrome. Sulfadiazine used in excessively high doses is associated with crystalluria and tubular deposits of sulfonamide crystals. These complications can be minimized by maintenance of high urine flow and alkalinization of the urine. Tubular necrosis, interstitial nephritis, and necrotizing angiitis may be associated rarely with sulfonamide sensitivity.
+
+::: {.callout-important}
+## Serious Adverse Reactions
+
+More serious adverse reactions caused by sulfonamides may include:
+
+- **Acute hemolytic anemia** sometimes related to a deficiency in erythrocyte glucose-6-phosphate dehydrogenase (G6PD)
+- **Aplastic anemia**
+- **Agranulocytosis**
+- **Thrombocytopenia**
+- **Leukopenia**
+:::
+
+Sulfonamides administered during the last month of pregnancy compete for bilirubin-binding sites on plasma albumin and may increase fetal blood levels of unconjugated bilirubin, increasing the risk of kernicterus. Also, because of the immature fetal acetyltransferase system, blood levels of free sulfonamide may be increased, further adversely affecting the risk of kernicterus.
+
+::: {.callout-warning}
+## Hypersensitivity Reactions
+
+Significant hypersensitivity reactions can occur with sulfonamides administered by any route. The most important of these reactions are:
+
+- Erythema nodosum
+- Erythema multiforme (including Stevens-Johnson syndrome)
+- Fixed-drug eruption
+- Vasculitis similar to periarteritis nodosa
+- Anaphylaxis
+- Toxic epidermal necrolysis
+
+One report suggested that cutaneous reactions, including toxic epidermal necrolysis, may be related to an inherited constitutional defect in detoxification of metabolites. Locally applied sulfonamides (e.g., to skin) may be associated with any of these adverse reactions.
+:::
+
+Many HIV-infected patients who have adverse reactions to sulfa drugs can be desensitized by gradual dose escalation or may tolerate rechallenges without severe adverse reactions [@Gordin1984]. Patients who are not desensitized successfully to sulfa drugs have tolerated the changing of their regimen to dapsone, with or without pyrimethamine.
+
+### Drug Interactions
+
+Sulfonamides may displace from albumin-binding sites drugs such as warfarin, increasing the effective activity of the displaced drug. Anticoagulant dosage should be reduced during sulfonamide therapy. Sulfonamides also displace methotrexate from its bound protein, increasing methotrexate toxicity. An increased hypoglycemic effect of chlorpropamide and tolbutamide may occur during sulfonamide therapy, possibly because of the same mechanism or structural similarities.
+
+Sulfonamides may compete for binding sites with some anesthetic agents such as thiopental, and reduced barbiturate doses might be necessary. Sulfonamides may potentiate the action of some thiazide diuretics, phenytoin, and uricosuric agents. Conversely, sulfonamides themselves can be displaced from binding sites by indomethacin, phenylbutazone, salicylates, probenecid, and sulfinpyrazone, resulting in increased sulfonamide activity. Cyclosporine levels may be reduced by sulfonamides. Oral contraceptive failure during sulfonamide therapy has been noted rarely.
+
+The activity of sulfonamides may be decreased by procaine and other local anesthetics derived from PABA. Methenamine compounds should not be used with sulfonamides because of the formation of insoluble urinary precipitates. Sulfonamides may decrease protein-bound iodine and iodine-131 (^131^I) uptake and may produce false-positive Benedict test results for urine glucose and false-positive sulfosalicylic acid test results for urine proteins.
+
+### Major Clinical Uses
+
+Sulfonamides have been used frequently in the treatment of acute UTIs. Increasing resistance has diminished their effectiveness. Because of widespread resistance of uropathogenic *E. coli*, the choice of therapy should be based on community prevalence of susceptible infecting organisms.
+
+Sulfonamides are effective for the treatment of infections caused by *Nocardia asteroides* and other *Nocardia* spp., although resistance may be increasing. Therapy must include 4–6 g or more daily after a loading dose of 4 g and should be continued for 4–6 months or longer, if necessary. Sulfonamides may be useful in combination with antimycobacterial drugs for the management of infections caused by some atypical mycobacteria.
+
+Sulfonamides have been used to treat toxoplasmosis in patients with or without acquired immunodeficiency syndrome (AIDS) and chloroquine-susceptible or chloroquine-resistant *Plasmodium falciparum* malaria (with pyrimethamine). Studies have found that sulfadoxine-pyrimethamine malaria prophylaxis is well tolerated in pregnant women, but increased resistance has been reported. The optimal treatment for toxoplasmic encephalitis is the combination of pyrimethamine plus sulfadiazine or, for patients intolerant to sulfonamides, pyrimethamine plus clindamycin. In most studies, both regimens seem equally efficacious.
+
+The pyrimethamine-sulfadiazine regimen begins with a 4- to 8-week induction course of pyrimethamine (200 mg once daily for 1 day, followed by 75 mg once daily) plus sulfadiazine (1–2 g four times daily). Leucovorin (5–50 mg once daily) is administered to prevent pyrimethamine-associated folinic acid deficiency. Sulfadiazine may be given twice daily (2 g), even during induction therapy. Sulfonamide desensitization has been effective for patients with cerebral toxoplasmosis and allergies to sulfonamides. High-dose TMP-SMX is an effective alternative for AIDS-related cerebral toxoplasmosis, although pyrimethamine-sulfadiazine has been considered preferable.
+
+Melioidosis, dermatitis herpetiformis, lymphogranuloma venereum, and chancroid have responded to sulfonamides. Nongonococcal urethritis caused by *Chlamydia*, but not caused by *Ureaplasma urealyticum*, responded to sulfonamide therapy. Sulfasalazine is used in the treatment of inflammatory bowel diseases. Currently, sulfonamides are used most frequently in combination with trimethoprim (see later). Sulfamethoxazole at 800 mg dosing might have a future role in the treatment of multidrug-resistant (MDR) tuberculosis.
+
+## Trimethoprim
+
+### Structure and Derivation
+
+Trimethoprim is a 2,4-diamino-5-(3',4',5'-trimethoxybenzyl) pyrimidine (@fig-trimethoprim). This drug was synthesized by Bushby and Hitchings as a DHFR inhibitor thought to potentiate the activity of sulfonamides by sequential inhibition of folic acid synthesis [@Bushby1968]. In the United States, trimethoprim is available as a single agent and in combination with sulfamethoxazole (co-trimoxazole; see later). Trimethoprim has antibacterial activity of its own.
+
+![Chemical structure of trimethoprim (2,4-diamino-5-[3',4',5'-trimethoxybenzyl] pyrimidine).](images/fig33-019.png){#fig-trimethoprim}
+
+### Mechanism of Action
+
+Trimethoprim owes its activity to powerful inhibition of bacterial DHFR, which is the next enzymatic step after folic acid synthesis is blocked by sulfonamides. Trimethoprim is 50,000–100,000 times more active against bacterial DHFR than against the human enzyme. Trimethoprim interferes with the conversion of dihydrofolate to tetrahydrofolate, the precursor of folinic acid and ultimately of purine and DNA synthesis (@fig-folate-pathway). The sequential blockage of the same biosynthetic pathway by sulfonamides and trimethoprim results in a high degree of synergistic activity against a wide spectrum of microorganisms. Humans do not synthesize folic acid but require it in their diet, and human purine synthesis is not affected significantly by the enzyme inhibition of trimethoprim.
+
+![The folic acid synthesis pathway showing the sites of action of sulfonamides (blocking PABA incorporation) and trimethoprim (blocking DHFR).](images/fig33-020.png){#fig-folate-pathway}
+
+### Antimicrobial Activity
+
+Trimethoprim is active in vitro against many gram-positive cocci and most gram-negative rods, except for *Pseudomonas aeruginosa*. *Treponema pallidum*, *Mycobacterium tuberculosis*, *Mycoplasma* spp., and most anaerobes are resistant. Thymidine inhibits the in vitro activity of trimethoprim, but the addition of thymidine phosphorylase or 5% lysed horse blood, which releases the phosphorylase to Mueller-Hinton medium or other susceptibility testing media, removes this inhibition. The minimal inhibitory concentration (MIC) varies considerably with the medium used.
+
+Trimethoprim alone has good in vitro activity against *H. influenzae*; a survey has shown that 76% of 978 strains remain susceptible, but higher resistance rates are reported elsewhere. *S. pyogenes* MICs have been reported at less than or equal to 2 µg/mL, but transferable genes mediating resistance to trimethoprim are increasingly common and limit usefulness against these organisms.
+
+## Trimethoprim-Sulfamethoxazole (TMP-SMX)
+
+### Rationale for the Combination
+
+The combination of trimethoprim with sulfamethoxazole produces sequential blockade of the folic acid synthesis pathway, resulting in:
+
+1. **Synergistic antibacterial activity** - The combination is often bactericidal, whereas each component alone is bacteriostatic
+2. **Broader spectrum** - Coverage extends to organisms resistant to either agent alone
+3. **Reduced resistance development** - Dual-target inhibition makes resistance emergence less likely
+
+### Antimicrobial Spectrum
+
+TMP-SMX is active against:
+
+- Most *Enterobacterales* (with notable exceptions due to resistance)
+- *Staphylococcus aureus* including many MRSA strains
+- *Streptococcus pneumoniae* (though resistance increasing)
+- *Haemophilus influenzae*
+- *Listeria monocytogenes*
+- *Pneumocystis jirovecii*
+- *Toxoplasma gondii*
+- *Nocardia* species
+- *Stenotrophomonas maltophilia*
+
+::: {.callout-tip}
+## Clinical Pearl
+
+TMP-SMX is one of the few oral antimicrobials with reliable activity against *Stenotrophomonas maltophilia*, making it valuable for step-down therapy in appropriate patients.
+:::
+
+### Pharmacokinetics
+
+Both components are well absorbed orally with peak serum concentrations reached within 1-4 hours. The fixed 1:5 ratio of TMP:SMX (160 mg:800 mg) produces a serum concentration ratio of approximately 1:20, which is optimal for synergy against most pathogens.
+
+| Parameter | Trimethoprim | Sulfamethoxazole |
+|-----------|:------------:|:----------------:|
+| Oral bioavailability | >90% | >90% |
+| Protein binding | 45% | 70% |
+| Volume of distribution | 1.6 L/kg | 0.36 L/kg |
+| Half-life | 8-10 hr | 9-11 hr |
+| CSF penetration | 40-50% | 25-50% |
+| Renal excretion | 50-70% | 15-30% |
+
+: Pharmacokinetic comparison of TMP-SMX components {#tbl-tmpsmx-pk}
+
+### Clinical Indications
+
+::: {.callout-note}
+## Primary Indications for TMP-SMX
+
+1. **Pneumocystis jirovecii pneumonia (PCP)**
+   - First-line treatment and prophylaxis
+   - Treatment dose: 15-20 mg/kg/day TMP in 3-4 divided doses
+   - Prophylaxis: 1 DS tablet daily or 3 times weekly
+
+2. **Urinary tract infections**
+   - Uncomplicated cystitis (where resistance <20%)
+   - Pyelonephritis in appropriate patients
+
+3. **Skin and soft tissue infections**
+   - Community-acquired MRSA
+   - 1-2 DS tablets twice daily
+
+4. **Respiratory infections**
+   - Acute exacerbations of chronic bronchitis
+   - Some community-acquired pneumonias
+
+5. **Other infections**
+   - Toxoplasmosis (alternative therapy)
+   - Nocardiosis (primary therapy)
+   - *Stenotrophomonas maltophilia* infections
+   - Traveler's diarrhea
+   - Isospora and Cyclospora infections
+:::
+
+### Dosing
+
+Standard dosing for adults:
+
+- **Mild-moderate infections**: 1 double-strength (DS) tablet (160/800 mg) every 12 hours
+- **Serious infections**: 15-20 mg/kg/day (based on TMP component) in divided doses
+- **PCP prophylaxis**: 1 DS tablet daily or 3 times weekly
+- **PCP treatment**: 15-20 mg/kg/day TMP IV or PO for 21 days
+
+::: {.callout-warning}
+## Renal Dose Adjustments
+
+| Creatinine Clearance | Recommendation |
+|---------------------|----------------|
+| >30 mL/min | Standard dosing |
+| 15-30 mL/min | 50% dose reduction |
+| <15 mL/min | Avoid use (or give 50% dose q24h with monitoring) |
+
+Hemodialysis: Give dose after dialysis
+:::
+
+### Adverse Effects
+
+Adverse effects of TMP-SMX are more common in HIV-infected patients (up to 50-60% may experience reactions).
+
+**Common adverse effects:**
+
+- Gastrointestinal: nausea, vomiting, anorexia
+- Dermatologic: rash (3-5% of general population; higher in HIV)
+- Hematologic: megaloblastic anemia (usually with prolonged use)
+
+**Serious adverse effects:**
+
+- Stevens-Johnson syndrome/toxic epidermal necrolysis
+- Hyperkalemia (trimethoprim blocks ENaC sodium channels)
+- Acute kidney injury (both interstitial nephritis and crystalluria)
+- Hepatotoxicity
+- Severe cytopenias
+
+::: {.callout-important}
+## Hyperkalemia Risk
+
+Trimethoprim blocks the epithelial sodium channel (ENaC) in the distal nephron, functioning similarly to potassium-sparing diuretics. Risk factors for clinically significant hyperkalemia include:
+
+- Advanced age
+- Renal insufficiency
+- Concurrent use of ACE inhibitors, ARBs, or potassium-sparing diuretics
+- Higher TMP-SMX doses
+- Diabetes mellitus
+
+Monitor potassium in high-risk patients, especially within the first week of therapy [@Antoniou2010].
+:::
+
+### Drug Interactions
+
+| Drug | Interaction | Management |
+|------|-------------|------------|
+| Warfarin | ↑ INR (CYP2C9 inhibition) | Monitor INR; reduce warfarin dose |
+| Methotrexate | ↑ Toxicity | Avoid combination; monitor closely |
+| Phenytoin | ↑ Phenytoin levels | Monitor levels |
+| Sulfonylureas | ↑ Hypoglycemia risk | Monitor glucose |
+| ACE inhibitors/ARBs | ↑ Hyperkalemia risk | Monitor potassium |
+| Dofetilide | Contraindicated | Avoid |
+
+: Important drug interactions with TMP-SMX {#tbl-interactions}
+
+### Contraindications
+
+- Known hypersensitivity to sulfonamides or trimethoprim
+- Documented megaloblastic anemia due to folate deficiency
+- Pregnancy at term (risk of kernicterus) and during breastfeeding
+- Severe hepatic or renal impairment
+- Infants <2 months of age (except for PCP treatment)
+
+### Desensitization
+
+For patients with previous reactions who require TMP-SMX (particularly HIV patients needing PCP prophylaxis), desensitization protocols may be attempted:
+
+**Rapid desensitization protocol (8-hour):**
+
+1. 0.004 mg/mL suspension: 1 mL
+2. 0.04 mg/mL suspension: 1 mL
+3. 0.4 mg/mL suspension: 1 mL
+4. 4 mg/mL suspension: 1 mL
+5. 40 mg/80 mg tablet: ¼ tablet
+6. 40 mg/80 mg tablet: ½ tablet
+7. 80 mg/160 mg tablet: 1 tablet
+8. 160 mg/800 mg tablet: 1 tablet (target dose)
+
+Each step given at 1-hour intervals.
+
+::: {.callout-caution}
+Desensitization should only be performed in settings equipped to manage anaphylaxis. Patients with previous severe reactions (SJS/TEN) should NOT undergo desensitization.
+:::
+
+## References
+
+::: {#refs}
+:::
