@@ -11,7 +11,6 @@ format:
     progress: true
     controls: true
     center: true
-    transition: slide
     smaller: false
 bibliography: tmp-smx-references.bib
 editor: 
@@ -20,6 +19,7 @@ editor:
 ---
 
 ## Sulfonamides and Trimethoprim; TMP-SMX {background-video="tmp-smx-images/agar.mp4" background-video-loop="true" background-video-muted="true" background-color="#b20e10" background-opacity="0.5"}
+
 <br>
 
 <center>
@@ -37,11 +37,11 @@ Diseases (MEDS-10/B) <br>
 <br> Slides and course materials:
 [www.idpadova.com](https://padovaid.com/)
 
-## Learning Objectives (1 of 2)
+## Learning objectives (1 of 2)
+
 <br>
 
 By the end of this lecture, you should be able to:
-
 
 1.  Describe the history and development of sulfonamides
 2.  Explain the chemical structure-activity relationships of
@@ -49,11 +49,9 @@ By the end of this lecture, you should be able to:
 3.  Describe the mechanism of action of sulfonamides and trimethoprim
 4.  Explain the basis for synergy in TMP-SMX combination
 
+## Learning objectives (2 of 2)
 
-
-## Learning Objectives (2 of 2) 
 <br>
-
 
 5.  List the major mechanisms of resistance to sulfonamides and
     trimethoprim
@@ -62,19 +60,10 @@ By the end of this lecture, you should be able to:
 8.  Identify appropriate clinical indications for TMP-SMX
 9.  Manage drug interactions and special populations
 
-
-
-
 # PART 1: History and Discovery {background-color="#b20e10"}
 
-::: notes
-We begin with the historical context - understanding why sulfonamides
-were revolutionary and how they shaped modern antimicrobial therapy.
-:::
+## The birth of antimicrobial chemotherapy
 
-------------------------------------------------------------------------
-
-## The Birth of Antimicrobial Chemotherapy
 <br>
 
 ::::: columns
@@ -86,38 +75,46 @@ were revolutionary and how they shaped modern antimicrobial therapy.
 :::
 
 ::: {.column width="40%"}
-<!-- IMAGE NEEDED: Portrait of Domagk or Prontosil structure -->
+![](tmp-smx-images/Domagk.png){width="350"}
 :::
 :::::
 
-::: notes
+::: aside
 Domagk was working for I.G. Farbenindustrie when he discovered that the
 red dye Prontosil protected mice from streptococcal infections. He
 received the Nobel Prize in 1939, though the Nazi regime forced him to
 decline it initially.
 :::
 
-------------------------------------------------------------------------
+## Prontosil to sulfanilamide
 
-## Prontosil to Sulfanilamide
 <br>
 
+:::: {.columns}
+
+::: {.column width="50%"}
 - Prontosil was a **prodrug**
 - Active metabolite: **sulfanilamide**
 - Released in vivo through azo bond cleavage
 - First use in US: July 1935
   - 10-year-old girl with *H. influenzae* meningitis
   - Unfortunately unsuccessful (too late in disease)
+:::
 
-::: notes
+::: {.column width="50%"}
+![](tmp-smx-images/treufel.png){width="350"}
+:::
+
+::::
+
+::: aside
 The French team of Tréfouël discovered that the active compound was
 actually sulfanilamide, not the parent dye. This was important because
 sulfanilamide couldn't be patented, leading to widespread availability.
 :::
 
-------------------------------------------------------------------------
+## Evolution of sulfonamides
 
-## Evolution of Sulfonamides
 <br>
 
 | Decade | Development                              |
@@ -128,19 +125,18 @@ sulfanilamide couldn't be patented, leading to widespread availability.
 | 1960s  | TMP-SMX combination introduced           |
 | 1970s+ | Prophylaxis for opportunistic infections |
 
-::: notes
+<br> <br>
+
+::: aside
 Sulfonamides were the dominant antimicrobials before penicillin became
 widely available. Even today, in combination with trimethoprim, they
 remain clinically valuable.
 :::
 
-------------------------------------------------------------------------
-
 # PART 2: Sulfonamide Chemistry and Structure {background-color="#b20e10"}
 
-------------------------------------------------------------------------
+## Sulfonamide structure basics
 
-## Sulfonamide Structure Basics
 <br>
 
 ::::: columns
@@ -158,41 +154,41 @@ remain clinically valuable.
 :::
 :::::
 
-::: notes
+::: aside
 The structural similarity to para-aminobenzoic acid (PABA) is the key to
 understanding the mechanism of action. The free amino group at the
 4-carbon position is essential for activity.
 :::
 
-------------------------------------------------------------------------
 
-## Structure-Activity Relationships
+## Structure-activity relationships
+
 <br>
 
 **Activity-enhancing modifications:**
 
-::: incremental
+
 - Free 4-amino group → **Essential** for activity
 - Sulfonyl (SO₂) substitutions → Increased PABA inhibition
 - Examples: sulfadiazine, sulfisoxazole, sulfamethoxazole
-:::
+
 
 **Activity-decreasing modifications:**
 
-::: incremental
-- N-1 substitutions → Decreased GI absorption
-- Example: phthalylsulfathiazole (stays in GI tract)
-:::
 
-::: notes
+- N-1 substitutions → Decreased GI absorption
+
+
+::: aside
 The nature of substitutions determines not only activity but also
 pharmacokinetic properties like absorption, solubility, and protein
 binding.
 :::
 
-------------------------------------------------------------------------
 
-## Classification of Sulfonamides
+
+## Classification of sulfonamides
+
 <br>
 
 | Class               | Examples            | Key Features            |
@@ -202,15 +198,16 @@ binding.
 | GI-limited          | Sulfasalazine       | Poorly absorbed, IBD    |
 | Topical             | Silver sulfadiazine | Burns, wounds           |
 
-::: notes
+::: aside
 This classification is clinically useful. Short-acting agents are the
 most commonly used. Long-acting agents fell out of favor due to
 Stevens-Johnson syndrome risk but remain useful for malaria.
 :::
 
-------------------------------------------------------------------------
 
-## Sulfamethoxazole: The Most Important
+
+## Sulfamethoxazole: The most important
+
 <br>
 
 - *N'*-(5-methyl-3-isoxazolyl) sulfanilamide
@@ -219,82 +216,101 @@ Stevens-Johnson syndrome risk but remain useful for malaria.
 - **The sulfonamide in TMP-SMX**
 - Half-life \~11 hours (matches TMP)
 
-::: notes
+<br> <br>
+
+::: aside
 Sulfamethoxazole was chosen for the TMP combination specifically because
 its pharmacokinetic profile (particularly half-life) closely matches
 that of trimethoprim, making it ideal for twice-daily dosing.
 :::
 
-------------------------------------------------------------------------
+
 
 # PART 3: Mechanism of Action {background-color="#b20e10"}
 
-------------------------------------------------------------------------
 
-## The Folic Acid Pathway
+
+## The Folic acid pathway
+
 <br>
 
 ![Folic acid synthesis pathway](images/fig33-020.png)
 
-::: notes
+::: aside
 This pathway diagram is crucial for understanding how sulfonamides and
 trimethoprim work together. Note the two sequential steps that are
 blocked.
 :::
 
-------------------------------------------------------------------------
 
-## Step 1: Sulfonamide Action
+## Step 1: Sulfonamide action
+
 <br>
 
 **Target:** Dihydropteroate synthase (DHPS)
 
-::: incremental
+
 - Sulfonamides are PABA analogs
 - Competitive inhibition of PABA incorporation
 - Can be incorporated into dihydropteroate
 - **Result:** Decreased dihydrofolic acid synthesis
-:::
 
-::: notes
+
+::: aside
 Sulfonamides may actually have higher affinity for DHPS than the natural
 substrate PABA. They may also be incorporated into abnormal folate
 intermediates.
 :::
 
-------------------------------------------------------------------------
 
-## Step 2: Trimethoprim Action
+
+## Step 2: Trimethoprim action
+
 <br>
 
 **Target:** Dihydrofolate reductase (DHFR)
 
-::: incremental
+
 - Blocks conversion of dihydrofolate → tetrahydrofolate
 - 50,000-100,000x more active against bacterial vs human DHFR
 - **Selective toxicity** is key
 - Result: Decreased tetrahydrofolic acid
-:::
 
-::: notes
+<br> <br>
+
+::: aside
 The remarkable selectivity of trimethoprim for bacterial DHFR over human
 DHFR is the basis for its therapeutic index. Human cells obtain folic
 acid from the diet and don't require the synthesis pathway.
 :::
 
-------------------------------------------------------------------------
 
-## Sequential Blockade = Synergy
+
+## Sequential blockade = synergy
+
 <br>
 
-```{mermaid}
-flowchart LR
-    A[PABA] -->|DHPS| B[Dihydrofolic acid]
-    B -->|DHFR| C[Tetrahydrofolic acid]
-    C --> D[Purines + DNA]
+```{dot}
+digraph folate_pathway {
+    rankdir=LR
+    node [shape=box, style="rounded,filled", fillcolor=white, fontname=Helvetica]
+    edge [fontname=Helvetica, fontsize=11]
 
-    S[Sulfonamides] -.->|Block| A
-    T[Trimethoprim] -.->|Block| B
+    PABA  [label="PABA"]
+    DHF   [label="Dihydrofolic acid"]
+    THF   [label="Tetrahydrofolic acid"]
+    DNA   [label="Purines + DNA"]
+
+    PABA -> DHF [label="DHPS"]
+    DHF  -> THF [label="DHFR"]
+    THF  -> DNA
+
+    Sulfonamides [label="Sulfonamides", fillcolor="#ffcccc"]
+    Trimethoprim [label="Trimethoprim", fillcolor="#cce5ff"]
+
+    Sulfonamides -> PABA [label="Block", style=dashed, color="#cc0000", fontcolor="#cc0000", arrowhead=tee]
+    Trimethoprim -> DHF  [label="Block", style=dashed, color="#cc0000", fontcolor="#cc0000", arrowhead=tee]
+}
 ```
 
 **Why synergy occurs:**
@@ -303,15 +319,16 @@ flowchart LR
 - Bacteriostatic → Bactericidal effect
 - Reduced resistance emergence
 
-::: notes
+::: aside
 The combination of sulfonamide plus trimethoprim blocks two sequential
 steps in the same pathway. This creates true synergy - the combination
 is more effective than the sum of individual effects.
 :::
 
-------------------------------------------------------------------------
 
-## Key Concept: Bacteriostatic vs Bactericidal
+
+## Key concept: Bacteriostatic vs Bactericidal
+
 <br>
 
 | Property   | Sulfonamide Alone |   TMP Alone    |     TMP-SMX      |
@@ -329,6 +346,7 @@ relevant for serious infections.
 ------------------------------------------------------------------------
 
 ## Why Humans Are Spared
+
 <br>
 
 **Selective toxicity explained:**
@@ -358,6 +376,7 @@ deplete folate stores, especially in malnourished patients.
 ------------------------------------------------------------------------
 
 ## Spectrum of Activity
+
 <br>
 
 **Gram-positive:**
@@ -383,6 +402,7 @@ Stenotrophomonas is particularly valuable clinically.
 ------------------------------------------------------------------------
 
 ## Activity Against Special Pathogens
+
 <br>
 
 | Organism                 | Activity | Clinical Use |
@@ -402,6 +422,7 @@ only oral option.
 ------------------------------------------------------------------------
 
 ## Resistance: The Growing Problem
+
 <br>
 
 **Resistance rates are increasing:**
@@ -426,6 +447,7 @@ UTIs in high-resistance areas.
 ------------------------------------------------------------------------
 
 ## Mechanisms of Resistance
+
 <br>
 
 **Sulfonamide resistance:**
@@ -446,6 +468,7 @@ elements like integrons.
 ------------------------------------------------------------------------
 
 ## Mechanisms of Resistance (continued)
+
 <br>
 
 **Trimethoprim resistance:**
@@ -475,6 +498,7 @@ decades of use.
 ------------------------------------------------------------------------
 
 ## Pharmacokinetics Overview
+
 <br>
 
 | Parameter       |   TMP   |   SMX   |
@@ -494,6 +518,7 @@ into tissues.
 ------------------------------------------------------------------------
 
 ## The Magic of the 1:5 Ratio
+
 <br>
 
 **Fixed-dose combination:**
@@ -519,6 +544,7 @@ This was carefully optimized in early clinical trials.
 ------------------------------------------------------------------------
 
 ## Tissue Distribution
+
 <br>
 
 **Excellent penetration into:**
@@ -544,6 +570,7 @@ usefulness for these serious infections.
 ------------------------------------------------------------------------
 
 ## Metabolism and Elimination
+
 <br>
 
 **Trimethoprim:**
@@ -567,6 +594,7 @@ concentrations also explain the effectiveness for UTIs.
 ------------------------------------------------------------------------
 
 ## Renal Dosing Adjustments
+
 <br>
 
 | CrCl (mL/min) | Dose Adjustment                     |
@@ -596,6 +624,7 @@ serum levels without affecting true GFR. However, actual nephrotoxicity
 ------------------------------------------------------------------------
 
 ## Common Adverse Effects
+
 <br>
 
 **Gastrointestinal (most common):**
@@ -619,10 +648,12 @@ reaction rate in HIV patients is important to anticipate.
 ------------------------------------------------------------------------
 
 ## Serious Adverse Effects
+
 <br>
 
 ::: callout-important
 ## Life-Threatening Reactions
+
 <br>
 
 1.  **Stevens-Johnson Syndrome / TEN**
@@ -644,6 +675,7 @@ stop the drug immediately and never rechallenge.
 ------------------------------------------------------------------------
 
 ## Hyperkalemia: An Underappreciated Risk
+
 <br>
 
 **Mechanism:**
@@ -671,6 +703,7 @@ ACEi/ARBs who receive TMP-SMX, likely due to hyperkalemia.
 ------------------------------------------------------------------------
 
 ## Hyperkalemia Management
+
 <br>
 
 | Potassium Level | Action                                       |
@@ -693,6 +726,7 @@ hyperkalemia occur within the first 7-10 days.
 ------------------------------------------------------------------------
 
 ## Hematologic Toxicity
+
 <br>
 
 **Folate-related:**
@@ -716,6 +750,7 @@ synthesis block without reducing antibacterial efficacy.
 ------------------------------------------------------------------------
 
 ## Special Population: HIV Patients
+
 <br>
 
 **Much higher adverse reaction rates:**
@@ -742,10 +777,12 @@ metabolism, immune dysregulation, or increased oxidative stress.
 ------------------------------------------------------------------------
 
 ## Pregnancy Considerations
+
 <br>
 
 ::: callout-warning
 ## Avoid in Late Pregnancy
+
 <br>
 
 - Sulfonamides compete for bilirubin binding sites
@@ -772,6 +809,7 @@ TMP-SMX should be avoided after 32 weeks of pregnancy.
 ------------------------------------------------------------------------
 
 ## Major Drug Interactions
+
 <br>
 
 | Drug          | Effect         | Mechanism                             |
@@ -790,6 +828,7 @@ closely.
 ------------------------------------------------------------------------
 
 ## Drug Interactions (continued)
+
 <br>
 
 | Drug         | Effect            | Management          |
@@ -816,6 +855,7 @@ contraindication.
 ------------------------------------------------------------------------
 
 ## PCP: The Most Important Indication
+
 <br>
 
 **Pneumocystis jirovecii Pneumonia:**
@@ -842,6 +882,7 @@ epidemic. Today it remains essential for immunocompromised patients. The
 ------------------------------------------------------------------------
 
 ## Urinary Tract Infections
+
 <br>
 
 **Uncomplicated cystitis:**
@@ -868,6 +909,7 @@ below 20%. Fluoroquinolones or nitrofurantoin may be preferred.
 ------------------------------------------------------------------------
 
 ## Skin and Soft Tissue Infections
+
 <br>
 
 **Community-acquired MRSA:**
@@ -894,6 +936,7 @@ against streptococci, so consider coverage gaps.
 ------------------------------------------------------------------------
 
 ## Nocardiosis
+
 <br>
 
 **First-line therapy:**
@@ -916,6 +959,7 @@ penetrates well into brain abscesses.
 ------------------------------------------------------------------------
 
 ## Stenotrophomonas maltophilia
+
 <br>
 
 **Often the only oral option:**
@@ -938,6 +982,7 @@ IV therapy to an oral option.
 ------------------------------------------------------------------------
 
 ## Other Clinical Uses
+
 <br>
 
 | Infection           | Dose         | Duration  |
@@ -961,6 +1006,7 @@ penicillin-allergic patients.
 ------------------------------------------------------------------------
 
 ## Dosing Summary
+
 <br>
 
 | Indication        | Dose            | Frequency      | Duration   |
@@ -980,6 +1026,7 @@ especially with prolonged use.
 ------------------------------------------------------------------------
 
 ## Desensitization Protocols
+
 <br>
 
 **When to consider:**
@@ -1003,6 +1050,7 @@ controlled setting by experienced clinicians.
 ------------------------------------------------------------------------
 
 ## Contraindications
+
 <br>
 
 **Absolute:**
@@ -1025,6 +1073,7 @@ risk.
 ------------------------------------------------------------------------
 
 ## Monitoring Recommendations
+
 <br>
 
 | Parameter  | Timing                 | Notes              |
@@ -1048,6 +1097,7 @@ monitoring; long-term use requires more attention.
 ------------------------------------------------------------------------
 
 ## Case 1: PCP Prophylaxis
+
 <br>
 
 **45-year-old man with HIV:**
@@ -1066,6 +1116,7 @@ PCP prophylaxis.
 ------------------------------------------------------------------------
 
 ## Case 1: Answer
+
 <br>
 
 **TMP-SMX 1 DS tablet daily** (or 3x weekly)
@@ -1088,6 +1139,7 @@ considered if daily dosing causes GI intolerance.
 ------------------------------------------------------------------------
 
 ## Case 2: UTI in 2025
+
 <br>
 
 **28-year-old woman with uncomplicated cystitis:**
@@ -1106,6 +1158,7 @@ patterns.
 ------------------------------------------------------------------------
 
 ## Case 2: Answer
+
 <br>
 
 **No - local resistance too high**
@@ -1129,6 +1182,7 @@ appropriate in many areas.
 ------------------------------------------------------------------------
 
 ## Case 3: Hyperkalemia Risk
+
 <br>
 
 **72-year-old man with cellulitis:**
@@ -1147,6 +1201,7 @@ potassium-sparing diuretic!
 ------------------------------------------------------------------------
 
 ## Case 3: Answer
+
 <br>
 
 **High hyperkalemia risk!**
@@ -1177,6 +1232,7 @@ antibiotic choice entirely.
 ------------------------------------------------------------------------
 
 ## Case 4: The Rash
+
 <br>
 
 **35-year-old HIV+ man on TMP-SMX prophylaxis:**
@@ -1197,6 +1253,7 @@ discontinuation.
 ------------------------------------------------------------------------
 
 ## Case 4: Answer
+
 <br>
 
 **Options to consider:**
@@ -1223,6 +1280,7 @@ spontaneously. However, close monitoring is essential.
 ------------------------------------------------------------------------
 
 ## Case 5: Drug Interaction
+
 <br>
 
 **68-year-old woman on warfarin for A-fib:**
@@ -1241,6 +1299,7 @@ Classic TMP-SMX + warfarin interaction. Very common in practice.
 ------------------------------------------------------------------------
 
 ## Case 5: Answer
+
 <br>
 
 **TMP-SMX inhibits CYP2C9 → ↑ warfarin levels**
@@ -1268,6 +1327,7 @@ monitor INR closely.
 ------------------------------------------------------------------------
 
 ## Key Points to Remember (1/2)
+
 <br>
 
 ::: incremental
@@ -1289,6 +1349,7 @@ TMP-SMX.
 ------------------------------------------------------------------------
 
 ## Key Points to Remember (2/2)
+
 <br>
 
 ::: incremental
@@ -1310,6 +1371,7 @@ interactions. TMP-SMX remains valuable but must be used thoughtfully.
 ------------------------------------------------------------------------
 
 ## When to Choose TMP-SMX
+
 <br>
 
 **Excellent choice for:**
@@ -1335,6 +1397,7 @@ highly valuable when used appropriately.
 ------------------------------------------------------------------------
 
 ## Questions?
+
 <br>
 
 ![](images/fig33-020.png){width="60%"}
@@ -1351,7 +1414,9 @@ scenarios or clarify any concepts covered in the lecture.
 ------------------------------------------------------------------------
 
 ## References
+
 <br>
 
 ::: {#refs}
 :::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
