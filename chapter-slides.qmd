@@ -90,8 +90,7 @@ decline it initially.
 
 <br>
 
-:::: {.columns}
-
+::::: columns
 ::: {.column width="50%"}
 - Prontosil was a **prodrug**
 - Active metabolite: **sulfanilamide**
@@ -104,8 +103,7 @@ decline it initially.
 ::: {.column width="50%"}
 ![](tmp-smx-images/treufel.png){width="350"}
 :::
-
-::::
+:::::
 
 ::: aside
 The French team of Tréfouël discovered that the active compound was
@@ -133,9 +131,9 @@ widely available. Even today, in combination with trimethoprim, they
 remain clinically valuable.
 :::
 
-# PART 2: Sulfonamide Chemistry and Structure {background-color="#b20e10"}
+# PART 2: <br> Sulfonamide Chemistry and Structure {background-color="#b20e10"}
 
-## Sulfonamide structure basics
+## Sulfonamide structure basics {.smaller}
 
 <br>
 
@@ -150,16 +148,26 @@ remain clinically valuable.
 :::
 
 ::: {.column width="50%"}
-![Sulfonamide structures](images/fig33-005.png)
+![Sulfonamide structures](tmp-smx-images/sulfa_structres.png)
 :::
 :::::
 
 ::: aside
-The structural similarity to para-aminobenzoic acid (PABA) is the key to
-understanding the mechanism of action. The free amino group at the
-4-carbon position is essential for activity.
+The free amino group at the 4-carbon position is essential for
+activity.The illustration shows the structural formulas of six different
+sulfonamide compounds labeled A through F. Panel A displays the
+structure of sulfanilamide, which consists of a benzene ring substituted
+with å primary amine and å sulfonamide group. Panel B presents
+para-aminobenzoic acid with carboxylic acid and an amine group in para
+positions on å benzene ring. Panel illustrates sulfadiazine, containing
+a sulfanilamide core with a pyrimidine ring attached through å
+nitrogen-sulfur finkage. Panel D features sulfisoxazole, with the
+sulfanilamide båse attached to a methyl-substituted isoxazole ring.
+Panel E shows sulfamethoxazole, where a methoxazole ring is bonded to
+the sulfanilamide group. Panel F presents sulfathalidine, also called
+bhthalvisulfathiazole, which contains a sulfanilamide moiety linked to a
+thiazole ring and a phthalyl group bearina a carboxylic acid.
 :::
-
 
 ## Structure-activity relationships
 
@@ -167,25 +175,19 @@ understanding the mechanism of action. The free amino group at the
 
 **Activity-enhancing modifications:**
 
-
 - Free 4-amino group → **Essential** for activity
 - Sulfonyl (SO₂) substitutions → Increased PABA inhibition
 - Examples: sulfadiazine, sulfisoxazole, sulfamethoxazole
 
-
 **Activity-decreasing modifications:**
 
-
 - N-1 substitutions → Decreased GI absorption
-
 
 ::: aside
 The nature of substitutions determines not only activity but also
 pharmacokinetic properties like absorption, solubility, and protein
 binding.
 :::
-
-
 
 ## Classification of sulfonamides
 
@@ -203,8 +205,6 @@ This classification is clinically useful. Short-acting agents are the
 most commonly used. Long-acting agents fell out of favor due to
 Stevens-Johnson syndrome risk but remain useful for malaria.
 :::
-
-
 
 ## Sulfamethoxazole: The most important
 
@@ -224,17 +224,13 @@ its pharmacokinetic profile (particularly half-life) closely matches
 that of trimethoprim, making it ideal for twice-daily dosing.
 :::
 
-
-
 # PART 3: Mechanism of Action {background-color="#b20e10"}
-
-
 
 ## The Folic acid pathway
 
 <br>
 
-![Folic acid synthesis pathway](images/fig33-020.png)
+![](tmp-smx-images/folicacid.png){fig-align="center" width="800"}
 
 ::: aside
 This pathway diagram is crucial for understanding how sulfonamides and
@@ -242,19 +238,16 @@ trimethoprim work together. Note the two sequential steps that are
 blocked.
 :::
 
-
 ## Step 1: Sulfonamide action
 
 <br>
 
 **Target:** Dihydropteroate synthase (DHPS)
 
-
 - Sulfonamides are PABA analogs
 - Competitive inhibition of PABA incorporation
 - Can be incorporated into dihydropteroate
 - **Result:** Decreased dihydrofolic acid synthesis
-
 
 ::: aside
 Sulfonamides may actually have higher affinity for DHPS than the natural
@@ -262,14 +255,11 @@ substrate PABA. They may also be incorporated into abnormal folate
 intermediates.
 :::
 
-
-
 ## Step 2: Trimethoprim action
 
 <br>
 
 **Target:** Dihydrofolate reductase (DHFR)
-
 
 - Blocks conversion of dihydrofolate → tetrahydrofolate
 - 50,000-100,000x more active against bacterial vs human DHFR
@@ -283,8 +273,6 @@ The remarkable selectivity of trimethoprim for bacterial DHFR over human
 DHFR is the basis for its therapeutic index. Human cells obtain folic
 acid from the diet and don't require the synthesis pathway.
 :::
-
-
 
 ## Sequential blockade = synergy
 
@@ -324,8 +312,6 @@ The combination of sulfonamide plus trimethoprim blocks two sequential
 steps in the same pathway. This creates true synergy - the combination
 is more effective than the sum of individual effects.
 :::
-
-
 
 ## Key concept: Bacteriostatic vs Bactericidal
 
@@ -1419,4 +1405,5 @@ scenarios or clarify any concepts covered in the lecture.
 
 ::: {#refs}
 :::
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
