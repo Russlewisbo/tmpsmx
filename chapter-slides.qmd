@@ -232,12 +232,6 @@ that of trimethoprim, making it ideal for twice-daily dosing.
 
 ![](tmp-smx-images/folicacid.png){fig-align="center" width="800"}
 
-::: aside
-This pathway diagram is crucial for understanding how sulfonamides and
-trimethoprim work together. Note the two sequential steps that are
-blocked.
-:::
-
 ## Step 1: Sulfonamide action
 
 <br>
@@ -276,8 +270,6 @@ acid from the diet and don't require the synthesis pathway.
 
 ## Sequential blockade = synergy
 
-<br>
-
 ```{dot}
 digraph folate_pathway {
     rankdir=LR
@@ -307,13 +299,7 @@ digraph folate_pathway {
 - Bacteriostatic → Bactericidal effect
 - Reduced resistance emergence
 
-::: aside
-The combination of sulfonamide plus trimethoprim blocks two sequential
-steps in the same pathway. This creates true synergy - the combination
-is more effective than the sum of individual effects.
-:::
-
-## Key concept: Bacteriostatic vs Bactericidal
+## Key concept: Bacteriostatic vs bactericidal
 
 <br>
 
@@ -323,45 +309,45 @@ is more effective than the sum of individual effects.
 | Inhibition |       DHPS        |      DHFR      |       Both       |
 | Resistance |    Higher risk    |  Higher risk   |    Lower risk    |
 
-::: notes
+::: aside
 The synergistic combination achieves bactericidal activity against many
 organisms that either agent alone would only inhibit. This is clinically
 relevant for serious infections.
 :::
 
-------------------------------------------------------------------------
 
-## Why Humans Are Spared
+
+## Why humans are spared
 
 <br>
 
 **Selective toxicity explained:**
 
-::: incremental
+
 1.  Humans cannot synthesize folic acid
 2.  Humans obtain folate from diet
 3.  Human DHFR has very low affinity for TMP
 4.  Mammalian cells take up preformed folate
-:::
+
 
 ::: callout-tip
 High doses or prolonged therapy can still cause folate deficiency -
 supplement with leucovorin when needed
 :::
 
-::: notes
+::: aside
 This is why TMP-SMX is generally well-tolerated despite blocking such
 fundamental metabolic pathways. However, prolonged high-dose therapy can
 deplete folate stores, especially in malnourished patients.
 :::
 
-------------------------------------------------------------------------
+
 
 # PART 4: Antimicrobial Spectrum and Resistance {background-color="#b20e10"}
 
-------------------------------------------------------------------------
 
-## Spectrum of Activity
+
+## Spectrum of activity
 
 <br>
 
@@ -379,15 +365,15 @@ deplete folate stores, especially in malnourished patients.
 - *Stenotrophomonas maltophilia*
 - NOT *Pseudomonas aeruginosa*
 
-::: notes
+::: aside
 TMP-SMX has an impressively broad spectrum. Notable gaps include
 Pseudomonas and most anaerobes. The activity against MRSA and
 Stenotrophomonas is particularly valuable clinically.
 :::
 
-------------------------------------------------------------------------
 
-## Activity Against Special Pathogens
+
+## Activity against special pathogens
 
 <br>
 
@@ -399,40 +385,40 @@ Stenotrophomonas is particularly valuable clinically.
 | *Stenotrophomonas*       |   +++    | First-line   |
 | *Isospora/Cyclospora*    |   +++    | First-line   |
 
-::: notes
+::: aside
 These special pathogens are where TMP-SMX really shines. For PCP and
 Nocardia, it's the drug of choice. For Stenotrophomonas, it's often the
 only oral option.
 :::
 
-------------------------------------------------------------------------
 
-## Resistance: The Growing Problem
+
+## Resistance: The growing problem
 
 <br>
 
 **Resistance rates are increasing:**
 
-::: incremental
+
 - *E. coli* (UTI isolates): 20-30% resistant in many areas
 - *S. pneumoniae*: 25-50% resistant globally
 - *Shigella*: \>30% resistant in US, \>75% in China
 - *Salmonella*: Majority of isolates now resistant
-:::
+
 
 ::: callout-warning
 Always check local resistance patterns before empiric therapy!
 :::
 
-::: notes
+::: aside
 The once-reliable activity of TMP-SMX against common pathogens is being
 eroded by resistance. This is why it's no longer first-line for many
 UTIs in high-resistance areas.
 :::
 
-------------------------------------------------------------------------
 
-## Mechanisms of Resistance
+
+## Mechanisms of resistance
 
 <br>
 
@@ -445,45 +431,45 @@ UTIs in high-resistance areas.
 4.  Decreased cell permeability
 :::
 
-::: notes
+::: aside
 Multiple mechanisms can operate simultaneously. The sul genes are
 particularly concerning as they're often carried on mobile genetic
 elements like integrons.
 :::
 
-------------------------------------------------------------------------
 
-## Mechanisms of Resistance (continued)
+
+## Mechanisms of resistance (continued)
 
 <br>
 
 **Trimethoprim resistance:**
 
-::: incremental
+
 1.  Point mutations in *dfrA* gene (altered DHFR)
 2.  Plasmid-mediated *dfr* genes (\>30 variants!)
 3.  DHFR overproduction
 4.  Decreased permeability
-:::
+
 
 ::: callout-important
 Cross-resistance between sulfonamides is common; resistance to one =
 resistance to all
 :::
 
-::: notes
+::: aside
 The large number of dfr gene variants (over 30 identified) reflects the
 strong selective pressure that has been applied to these drugs over
 decades of use.
 :::
 
-------------------------------------------------------------------------
+
 
 # PART 5: Pharmacology {background-color="#b20e10"}
 
-------------------------------------------------------------------------
 
-## Pharmacokinetics Overview
+
+## Pharmacokinetics overview
 
 <br>
 
@@ -495,15 +481,15 @@ decades of use.
 | Protein binding |   45%   |   70%   |
 | CSF penetration | 40-50%  | 25-50%  |
 
-::: notes
+::: aside
 The matched pharmacokinetics of TMP and SMX make them ideal combination
 partners. Both have excellent oral bioavailability and penetrate well
 into tissues.
 :::
 
-------------------------------------------------------------------------
 
-## The Magic of the 1:5 Ratio
+
+## The magic of the 1:5 ratio
 
 <br>
 
@@ -515,21 +501,21 @@ into tissues.
 
 **Why this ratio?**
 
-::: incremental
+
 - Accounts for different protein binding
 - Accounts for different tissue distribution
 - Maximizes bactericidal synergy
-:::
 
-::: notes
+
+::: aside
 The 1:5 ratio in the tablet produces approximately a 1:20 ratio in serum
 due to the different protein binding and distribution characteristics.
 This was carefully optimized in early clinical trials.
 :::
 
-------------------------------------------------------------------------
 
-## Tissue Distribution
+
+## Tissue distribution
 
 <br>
 
@@ -547,15 +533,15 @@ Good CNS penetration makes TMP-SMX useful for: - Toxoplasmic
 encephalitis - Nocardia brain abscess
 :::
 
-::: notes
+::: aside
 The good tissue penetration, especially into CSF, is a major advantage.
 Many antibiotics do not penetrate the CNS well, limiting their
 usefulness for these serious infections.
 :::
 
-------------------------------------------------------------------------
 
-## Metabolism and Elimination
+
+## Metabolism and elimination
 
 <br>
 
@@ -571,13 +557,13 @@ usefulness for these serious infections.
 - 15-30% excreted unchanged in urine
 - Metabolized by CYP2C9
 
-::: notes
+::: aside
 Both components have significant renal excretion, which is why dose
 adjustment is needed in renal impairment. The high urinary
 concentrations also explain the effectiveness for UTIs.
 :::
 
-------------------------------------------------------------------------
+
 
 ## Renal Dosing Adjustments
 
@@ -596,18 +582,18 @@ Monitor creatinine closely - TMP can increase serum creatinine by
 blocking tubular secretion (not true nephrotoxicity)
 :::
 
-::: notes
+::: aside
 The creatinine increase from TMP is a pharmacokinetic effect, not true
 nephrotoxicity. TMP blocks the tubular secretion of creatinine, raising
 serum levels without affecting true GFR. However, actual nephrotoxicity
 (interstitial nephritis) can also occur.
 :::
 
-------------------------------------------------------------------------
+
 
 # PART 6: Adverse Effects {background-color="#b20e10"}
 
-------------------------------------------------------------------------
+
 
 ## Common Adverse Effects
 
@@ -625,15 +611,14 @@ serum levels without affecting true GFR. However, actual nephrotoxicity
 - Much higher in HIV (50-60%)
 - Usually maculopapular
 
-::: notes
+::: aside
 GI side effects are the most common reason for discontinuation in
 clinical practice. Taking with food may help. The dramatically higher
 reaction rate in HIV patients is important to anticipate.
 :::
 
-------------------------------------------------------------------------
 
-## Serious Adverse Effects
+## Serious adverse effects
 
 <br>
 
@@ -650,17 +635,17 @@ reaction rate in HIV patients is important to anticipate.
     - Aplastic anemia
     - Thrombocytopenia
 3.  **Anaphylaxis**
-:::
 
-::: notes
+
+::: aside
 SJS/TEN is the most feared complication. Risk factors include HIV
 infection and certain HLA types. If a patient develops a severe rash,
 stop the drug immediately and never rechallenge.
 :::
 
-------------------------------------------------------------------------
 
-## Hyperkalemia: An Underappreciated Risk
+
+## Hyperkalemia: An underappreciated risk
 
 <br>
 
@@ -672,23 +657,23 @@ stop the drug immediately and never rechallenge.
 
 **Risk factors:**
 
-::: incremental
+
 - Renal insufficiency
 - Age \>65 years
 - ACE inhibitors or ARBs
 - Higher TMP doses
 - Diabetes mellitus
-:::
 
-::: notes
+
+::: aside
 Hyperkalemia from TMP-SMX is more common than many clinicians realize.
 Multiple studies have shown increased sudden death risk in patients on
 ACEi/ARBs who receive TMP-SMX, likely due to hyperkalemia.
 :::
 
-------------------------------------------------------------------------
 
-## Hyperkalemia Management
+
+## Hyperkalemia management
 
 <br>
 
@@ -703,15 +688,15 @@ ACEi/ARBs who receive TMP-SMX, likely due to hyperkalemia.
 Check potassium within first week in high-risk patients!
 :::
 
-::: notes
+::: aside
 Routine potassium monitoring is especially important in patients on ACE
 inhibitors, ARBs, or with renal impairment. Most cases of significant
 hyperkalemia occur within the first 7-10 days.
 :::
 
-------------------------------------------------------------------------
 
-## Hematologic Toxicity
+
+## Hematologic toxicity
 
 <br>
 
@@ -727,26 +712,26 @@ hyperkalemia occur within the first 7-10 days.
 - Supplemental leucovorin (folinic acid) for high-dose/prolonged therapy
 - Especially important in malnourished patients
 
-::: notes
+::: aside
 The hematologic effects are related to folate depletion. They're usually
 reversible with drug discontinuation. Leucovorin can bypass the folate
 synthesis block without reducing antibacterial efficacy.
 :::
 
-------------------------------------------------------------------------
 
-## Special Population: HIV Patients
+
+## Special population: HIV patients
 
 <br>
 
 **Much higher adverse reaction rates:**
 
-::: incremental
+
 - Rash: 50-60% (vs 3-5%)
 - Fever common
 - Often occurs after 1-2 weeks
 - May tolerate rechallenge or desensitization
-:::
+
 
 **Despite reactions, TMP-SMX remains:**
 
@@ -754,20 +739,20 @@ synthesis block without reducing antibacterial efficacy.
 - First-line PCP treatment
 - Benefits outweigh risks
 
-::: notes
+::: aside
 The high reaction rate in HIV patients was noted early in the AIDS
 epidemic. The mechanism is unclear but may relate to altered drug
 metabolism, immune dysregulation, or increased oxidative stress.
 :::
 
-------------------------------------------------------------------------
 
-## Pregnancy Considerations
+
+## Pregnancy considerations
 
 <br>
 
 ::: callout-warning
-## Avoid in Late Pregnancy
+## Avoid in late pregnancy
 
 <br>
 
@@ -782,19 +767,19 @@ metabolism, immune dysregulation, or increased oxidative stress.
 - Some studies suggest neural tube defect risk
 - Consider folate supplementation if used
 
-::: notes
+::: aside
 The kernicterus risk is specific to the neonatal period when the
 blood-brain barrier is immature and bilirubin encephalopathy can occur.
 TMP-SMX should be avoided after 32 weeks of pregnancy.
 :::
 
-------------------------------------------------------------------------
+
 
 # PART 7: Drug Interactions {background-color="#b20e10"}
 
-------------------------------------------------------------------------
 
-## Major Drug Interactions
+
+## Major drug interactions
 
 <br>
 
@@ -805,15 +790,14 @@ TMP-SMX should be avoided after 32 weeks of pregnancy.
 | Phenytoin     | ↑ Levels       | CYP2C9 inhibition                     |
 | Sulfonylureas | ↑ Hypoglycemia | Protein displacement                  |
 
-::: notes
+::: aside
 The warfarin interaction is probably the most clinically important.
 Always reduce warfarin dose when starting TMP-SMX and monitor INR
 closely.
 :::
 
-------------------------------------------------------------------------
 
-## Drug Interactions (continued)
+## Drug interactions (continued)
 
 <br>
 
@@ -828,30 +812,30 @@ closely.
 TMP-SMX + Dofetilide = **Absolute contraindication**
 :::
 
-::: notes
+::: aside
 Dofetilide is eliminated by renal cation transporters that TMP inhibits,
 leading to dangerous accumulation and QT prolongation. This is a hard
 contraindication.
 :::
 
-------------------------------------------------------------------------
+
 
 # PART 8: Clinical Applications {background-color="#b20e10"}
 
-------------------------------------------------------------------------
 
-## PCP: The Most Important Indication
+
+## PCP: The most important indication
 
 <br>
 
 **Pneumocystis jirovecii Pneumonia:**
 
-::: incremental
+
 - **Treatment:** 15-20 mg/kg/day TMP, 21 days
 - **Prophylaxis:** 1 DS tablet daily (or 3x/week)
 - First-line for both
 - Add steroids if PaO₂ \<70 mmHg
-:::
+
 
 **Prophylaxis indications:**
 
@@ -859,15 +843,15 @@ contraindication.
 - Other immunocompromising conditions
 - Solid organ transplant recipients
 
-::: notes
+::: aside
 TMP-SMX prophylaxis dramatically reduced PCP mortality in the HIV
 epidemic. Today it remains essential for immunocompromised patients. The
 3x weekly dosing is often better tolerated with similar efficacy.
 :::
 
-------------------------------------------------------------------------
 
-## Urinary Tract Infections
+
+## Urinary tract infections
 
 <br>
 
@@ -886,26 +870,26 @@ Check your local antibiogram! Many areas now have E. coli resistance
 \>20%
 :::
 
-::: notes
+::: aside
 TMP-SMX was once first-line for UTIs everywhere. Now, due to resistance,
 IDSA guidelines recommend it only in areas where resistance remains
 below 20%. Fluoroquinolones or nitrofurantoin may be preferred.
 :::
 
-------------------------------------------------------------------------
 
-## Skin and Soft Tissue Infections
+
+## Skin and soft tissue infections
 
 <br>
 
 **Community-acquired MRSA:**
 
-::: incremental
+
 - TMP-SMX has good CA-MRSA activity
 - 1-2 DS tablets BID × 5-10 days
 - Often combined with I&D for abscesses
 - Useful oral step-down option
-:::
+
 
 **Advantages:**
 
@@ -913,13 +897,35 @@ below 20%. Fluoroquinolones or nitrofurantoin may be preferred.
 - Good tissue penetration
 - Often susceptible when other agents fail
 
-::: notes
+::: aside
 TMP-SMX has become a key agent for CA-MRSA skin infections because it's
-oral, well-tolerated, and usually effective. However, it lacks activity
-against streptococci, so consider coverage gaps.
-:::
+oral, well-tolerated, and usually effective. 
 
-------------------------------------------------------------------------
+
+## The myth about TMP/SMX and lack of activity against Streptococci
+
+<br>
+- The key issue was thymidine in culture media.
+- Streptococci can utilize exogenous thymidine.
+- Early susceptibility media often contained relatively high thymidine concentrations.
+- Because TMP/SMX inhibits tetrahydrofolate-dependent thymidylate synthesis, providing thymidine externally bypasses the drug's mechanism.
+- The result was falsely elevated MICs and apparent resistance.
+
+- Modern CLSI-recommended media contain low thymidine concentrations (or thymidine phosphorylase is added), largely eliminating this artifact.
+
+
+## How do "appropriate" test conditions of TMP/SMX impact Streptococcus susceptibility?
+
+<br>
+
+
+**Most isolates of:**
+
+- Streptococcus pyogenes (Group A Streptococcus)
+- Streptococcus agalactiae (Group B Streptococcus)
+many β-hemolytic streptococci
+
+are actually **susceptible in vitro when tested appropriately.**
 
 ## Nocardiosis
 
