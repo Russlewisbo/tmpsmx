@@ -13,6 +13,10 @@ format:
 bibliography: tmp-smx-references.bib
 ---
 
+[Link for html slides](  ) <br>
+[Link to recorded lecture]( )
+
+
 ## Short View Summary
 
 ::: {.callout-note}
