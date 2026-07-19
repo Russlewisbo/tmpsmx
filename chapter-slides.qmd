@@ -18,7 +18,7 @@ editor:
     wrap: 72
 ---
 
-## Sulfonamides and Trimethoprim; TMP-SMX {background-video="tmp-smx-images/agar.mp4" background-video-loop="true" background-video-muted="true" background-color="#b20e10" background-opacity="0.5"}
+## Sulfonamides and Trimethoprim: TMP-SMX {background-video="tmp-smx-images/agar.mp4" background-video-loop="true" background-video-muted="true" background-color="#b20e10" background-opacity="0.5"}
 
 <br>
 
@@ -315,20 +315,16 @@ organisms that either agent alone would only inhibit. This is clinically
 relevant for serious infections.
 :::
 
-
-
 ## Why humans are spared
 
 <br>
 
 **Selective toxicity explained:**
 
-
 1.  Humans cannot synthesize folic acid
 2.  Humans obtain folate from diet
 3.  Human DHFR has very low affinity for TMP
 4.  Mammalian cells take up preformed folate
-
 
 ::: callout-tip
 High doses or prolonged therapy can still cause folate deficiency -
@@ -341,11 +337,7 @@ fundamental metabolic pathways. However, prolonged high-dose therapy can
 deplete folate stores, especially in malnourished patients.
 :::
 
-
-
 # PART 4: Antimicrobial Spectrum and Resistance {background-color="#b20e10"}
-
-
 
 ## Spectrum of activity
 
@@ -371,8 +363,6 @@ Pseudomonas and most anaerobes. The activity against MRSA and
 Stenotrophomonas is particularly valuable clinically.
 :::
 
-
-
 ## Activity against special pathogens
 
 <br>
@@ -391,20 +381,16 @@ Nocardia, it's the drug of choice. For Stenotrophomonas, it's often the
 only oral option.
 :::
 
-
-
 ## Resistance: The growing problem
 
 <br>
 
 **Resistance rates are increasing:**
 
-
 - *E. coli* (UTI isolates): 20-30% resistant in many areas
 - *S. pneumoniae*: 25-50% resistant globally
 - *Shigella*: \>30% resistant in US, \>75% in China
 - *Salmonella*: Majority of isolates now resistant
-
 
 ::: callout-warning
 Always check local resistance patterns before empiric therapy!
@@ -415,8 +401,6 @@ The once-reliable activity of TMP-SMX against common pathogens is being
 eroded by resistance. This is why it's no longer first-line for many
 UTIs in high-resistance areas.
 :::
-
-
 
 ## Mechanisms of resistance
 
@@ -437,20 +421,16 @@ particularly concerning as they're often carried on mobile genetic
 elements like integrons.
 :::
 
-
-
 ## Mechanisms of resistance (continued)
 
 <br>
 
 **Trimethoprim resistance:**
 
-
 1.  Point mutations in *dfrA* gene (altered DHFR)
 2.  Plasmid-mediated *dfr* genes (\>30 variants!)
 3.  DHFR overproduction
 4.  Decreased permeability
-
 
 ::: callout-important
 Cross-resistance between sulfonamides is common; resistance to one =
@@ -463,11 +443,7 @@ strong selective pressure that has been applied to these drugs over
 decades of use.
 :::
 
-
-
 # PART 5: Pharmacology {background-color="#b20e10"}
-
-
 
 ## Pharmacokinetics overview
 
@@ -487,8 +463,6 @@ partners. Both have excellent oral bioavailability and penetrate well
 into tissues.
 :::
 
-
-
 ## The magic of the 1:5 ratio
 
 <br>
@@ -501,19 +475,15 @@ into tissues.
 
 **Why this ratio?**
 
-
 - Accounts for different protein binding
 - Accounts for different tissue distribution
 - Maximizes bactericidal synergy
-
 
 ::: aside
 The 1:5 ratio in the tablet produces approximately a 1:20 ratio in serum
 due to the different protein binding and distribution characteristics.
 This was carefully optimized in early clinical trials.
 :::
-
-
 
 ## Tissue distribution
 
@@ -539,8 +509,6 @@ Many antibiotics do not penetrate the CNS well, limiting their
 usefulness for these serious infections.
 :::
 
-
-
 ## Metabolism and elimination
 
 <br>
@@ -562,8 +530,6 @@ Both components have significant renal excretion, which is why dose
 adjustment is needed in renal impairment. The high urinary
 concentrations also explain the effectiveness for UTIs.
 :::
-
-
 
 ## Renal Dosing Adjustments
 
@@ -589,13 +555,9 @@ serum levels without affecting true GFR. However, actual nephrotoxicity
 (interstitial nephritis) can also occur.
 :::
 
-
-
 # PART 6: Adverse Effects {background-color="#b20e10"}
 
-
-
-## Common Adverse Effects
+## Common adverse effects
 
 <br>
 
@@ -617,12 +579,10 @@ clinical practice. Taking with food may help. The dramatically higher
 reaction rate in HIV patients is important to anticipate.
 :::
 
-
 ## Serious adverse effects
 
 <br>
 
-::: callout-important
 ## Life-Threatening Reactions
 
 <br>
@@ -636,14 +596,11 @@ reaction rate in HIV patients is important to anticipate.
     - Thrombocytopenia
 3.  **Anaphylaxis**
 
-
 ::: aside
 SJS/TEN is the most feared complication. Risk factors include HIV
 infection and certain HLA types. If a patient develops a severe rash,
 stop the drug immediately and never rechallenge.
 :::
-
-
 
 ## Hyperkalemia: An underappreciated risk
 
@@ -657,21 +614,17 @@ stop the drug immediately and never rechallenge.
 
 **Risk factors:**
 
-
 - Renal insufficiency
 - Age \>65 years
 - ACE inhibitors or ARBs
 - Higher TMP doses
 - Diabetes mellitus
 
-
 ::: aside
 Hyperkalemia from TMP-SMX is more common than many clinicians realize.
 Multiple studies have shown increased sudden death risk in patients on
 ACEi/ARBs who receive TMP-SMX, likely due to hyperkalemia.
 :::
-
-
 
 ## Hyperkalemia management
 
@@ -693,8 +646,6 @@ Routine potassium monitoring is especially important in patients on ACE
 inhibitors, ARBs, or with renal impairment. Most cases of significant
 hyperkalemia occur within the first 7-10 days.
 :::
-
-
 
 ## Hematologic toxicity
 
@@ -718,20 +669,16 @@ reversible with drug discontinuation. Leucovorin can bypass the folate
 synthesis block without reducing antibacterial efficacy.
 :::
 
-
-
 ## Special population: HIV patients
 
 <br>
 
 **Much higher adverse reaction rates:**
 
-
 - Rash: 50-60% (vs 3-5%)
 - Fever common
 - Often occurs after 1-2 weeks
 - May tolerate rechallenge or desensitization
-
 
 **Despite reactions, TMP-SMX remains:**
 
@@ -745,16 +692,12 @@ epidemic. The mechanism is unclear but may relate to altered drug
 metabolism, immune dysregulation, or increased oxidative stress.
 :::
 
-
-
 ## Pregnancy considerations
 
 <br>
 
 ::: callout-warning
 ## Avoid in late pregnancy
-
-<br>
 
 - Sulfonamides compete for bilirubin binding sites
 - Risk of neonatal hyperbilirubinemia
@@ -773,11 +716,7 @@ blood-brain barrier is immature and bilirubin encephalopathy can occur.
 TMP-SMX should be avoided after 32 weeks of pregnancy.
 :::
 
-
-
 # PART 7: Drug Interactions {background-color="#b20e10"}
-
-
 
 ## Major drug interactions
 
@@ -795,7 +734,6 @@ The warfarin interaction is probably the most clinically important.
 Always reduce warfarin dose when starting TMP-SMX and monitor INR
 closely.
 :::
-
 
 ## Drug interactions (continued)
 
@@ -818,11 +756,7 @@ leading to dangerous accumulation and QT prolongation. This is a hard
 contraindication.
 :::
 
-
-
 # PART 8: Clinical Applications {background-color="#b20e10"}
-
-
 
 ## PCP: The most important indication
 
@@ -830,12 +764,10 @@ contraindication.
 
 **Pneumocystis jirovecii Pneumonia:**
 
-
 - **Treatment:** 15-20 mg/kg/day TMP, 21 days
 - **Prophylaxis:** 1 DS tablet daily (or 3x/week)
 - First-line for both
 - Add steroids if PaO₂ \<70 mmHg
-
 
 **Prophylaxis indications:**
 
@@ -848,8 +780,6 @@ TMP-SMX prophylaxis dramatically reduced PCP mortality in the HIV
 epidemic. Today it remains essential for immunocompromised patients. The
 3x weekly dosing is often better tolerated with similar efficacy.
 :::
-
-
 
 ## Urinary tract infections
 
@@ -876,20 +806,16 @@ IDSA guidelines recommend it only in areas where resistance remains
 below 20%. Fluoroquinolones or nitrofurantoin may be preferred.
 :::
 
-
-
 ## Skin and soft tissue infections
 
 <br>
 
 **Community-acquired MRSA:**
 
-
 - TMP-SMX has good CA-MRSA activity
 - 1-2 DS tablets BID × 5-10 days
 - Often combined with I&D for abscesses
 - Useful oral step-down option
-
 
 **Advantages:**
 
@@ -899,33 +825,40 @@ below 20%. Fluoroquinolones or nitrofurantoin may be preferred.
 
 ::: aside
 TMP-SMX has become a key agent for CA-MRSA skin infections because it's
-oral, well-tolerated, and usually effective. 
-
+oral, well-tolerated, and usually effective.
+:::
 
 ## The myth about TMP/SMX and lack of activity against Streptococci
 
 <br>
+
 - The key issue was thymidine in culture media.
+
 - Streptococci can utilize exogenous thymidine.
-- Early susceptibility media often contained relatively high thymidine concentrations.
-- Because TMP/SMX inhibits tetrahydrofolate-dependent thymidylate synthesis, providing thymidine externally bypasses the drug's mechanism.
-- The result was falsely elevated MICs and apparent resistance.
 
-- Modern CLSI-recommended media contain low thymidine concentrations (or thymidine phosphorylase is added), largely eliminating this artifact.
+  - Early susceptibility media often contained relatively high thymidine
+    concentrations.
 
+  - Because TMP/SMX inhibits tetrahydrofolate-dependent thymidylate
+    synthesis, providing thymidine externally bypasses the drug's
+    mechanism.
+
+- **The result was falsely elevated MICs and apparent resistance.**
+
+- Modern CLSI-recommended media contain low thymidine concentrations (or
+  thymidine phosphorylase is added), largely eliminating this artifact.
 
 ## How do "appropriate" test conditions of TMP/SMX impact Streptococcus susceptibility?
 
 <br>
 
-
 **Most isolates of:**
 
 - Streptococcus pyogenes (Group A Streptococcus)
-- Streptococcus agalactiae (Group B Streptococcus)
-many β-hemolytic streptococci
+- Streptococcus agalactiae (Group B Streptococcus) many β-hemolytic
+  streptococci
 
-are actually **susceptible in vitro when tested appropriately.**
+...are actually **susceptible in vitro when tested appropriately.**
 
 ## Nocardiosis
 
@@ -933,7 +866,7 @@ are actually **susceptible in vitro when tested appropriately.**
 
 **First-line therapy:**
 
-::: incremental
+::: {}
 - TMP-SMX preferred
 - High doses: 15-20 mg/kg/day TMP
 - Duration: 6-12 months (or longer)
@@ -1033,13 +966,13 @@ especially with prolonged use.
 - Hospital setting with anaphylaxis capability
 - Success rate \~70-80%
 
-::: notes
+::: aide
 Desensitization can be life-saving for HIV patients who need PCP
 prophylaxis but have had prior reactions. It should only be done in a
 controlled setting by experienced clinicians.
 :::
 
-------------------------------------------------------------------------
+
 
 ## Contraindications
 
@@ -1056,13 +989,13 @@ controlled setting by experienced clinicians.
 - Infants \<2 months (except PCP)
 :::
 
-::: notes
+::: aside
 These contraindications should be checked before prescribing. The infant
 age restriction is due to immature bilirubin metabolism and kernicterus
 risk.
 :::
 
-------------------------------------------------------------------------
+
 
 ## Monitoring Recommendations
 
@@ -1360,8 +1293,6 @@ Clinical application requires awareness of adverse effects and
 interactions. TMP-SMX remains valuable but must be used thoughtfully.
 :::
 
-------------------------------------------------------------------------
-
 ## When to Choose TMP-SMX
 
 <br>
@@ -1386,30 +1317,6 @@ This slide can serve as a quick clinical decision aid. TMP-SMX remains
 highly valuable when used appropriately.
 :::
 
-------------------------------------------------------------------------
-
-## Questions?
-
-<br>
-
-![](images/fig33-020.png){width="60%"}
-
-Thank you for your attention!
-
-**Contact information:** russ.e.lewis\@gmail.com
-
-::: notes
-Open floor for questions. Be prepared to discuss specific clinical
-scenarios or clarify any concepts covered in the lecture.
-:::
-
-------------------------------------------------------------------------
-
 ## References
 
 <br>
-
-::: {#refs}
-:::
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
