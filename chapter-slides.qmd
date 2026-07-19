@@ -226,7 +226,7 @@ that of trimethoprim, making it ideal for twice-daily dosing.
 
 # PART 3: Mechanism of Action {background-color="#b20e10"}
 
-## The Folic acid pathway
+## The folic acid pathway
 
 <br>
 
@@ -347,6 +347,7 @@ deplete folate stores, especially in malnourished patients.
 
 - *S. aureus* (including many CA-MRSA)
 - *S. pneumoniae* (resistance increasing)
+- Other *Streptococci* (classically throught to be hole in spectrum)
 - *Listeria monocytogenes*
 - *Nocardia* species
 
@@ -402,18 +403,11 @@ eroded by resistance. This is why it's no longer first-line for many
 UTIs in high-resistance areas.
 :::
 
-## Mechanisms of resistance
+## Mechanisms of resistance-sulfonamides
 
 <br>
 
-**Sulfonamide resistance:**
-
-::: incremental
-1.  Point mutations in *folP* gene (altered DHPS)
-2.  PABA overproduction
-3.  Plasmid-mediated *sul1*, *sul2*, *sul3* genes
-4.  Decreased cell permeability
-:::
+![](tmp-smx-images/sulfa_r.png){fig-align="center" width="800"}
 
 ::: aside
 Multiple mechanisms can operate simultaneously. The sul genes are
@@ -421,16 +415,11 @@ particularly concerning as they're often carried on mobile genetic
 elements like integrons.
 :::
 
-## Mechanisms of resistance (continued)
+## Mechanisms of resistance-trimethoprim (continued)
 
 <br>
 
-**Trimethoprim resistance:**
-
-1.  Point mutations in *dfrA* gene (altered DHFR)
-2.  Plasmid-mediated *dfr* genes (\>30 variants!)
-3.  DHFR overproduction
-4.  Decreased permeability
+![](tmp-smx-images/tmp_R.png){fig-align="center" width="800"}
 
 ::: callout-important
 Cross-resistance between sulfonamides is common; resistance to one =
@@ -891,7 +880,8 @@ penetrates well into brain abscesses.
 
 - Intrinsic multidrug resistance
 - TMP-SMX usually active
-- Ceftazidime-avibactam + aztreonam or cefidericol may be preferrable in some populations 
+- Ceftazidime-avibactam + aztreonam or cefidericol may be preferrable in
+  some populations
 - Important for step-down therapy
 
 ::: callout-tip
@@ -905,7 +895,55 @@ agents. TMP-SMX activity is a major advantage, especially for converting
 IV therapy to an oral option.
 :::
 
+------------------------------------------------------------------------
 
+## Stenotrophomonas: dosing & the combination-therapy shift {.smaller}
+
+<br>
+
+::::: columns
+::: {.column width="55%"}
+**Current dosing (non-cystitis)**
+
+- **8–12 mg/kg/day** TMP, divided q8–12h
+- Consider a **max of \~960 mg/day** TMP
+- Cystitis: lower doses acceptable (high urinary levels)
+
+**The recent shift** [@Tamma2024]
+
+- IDSA guidance now favors TMP-SMX **as part of combination therapy**,
+  at least until clinical improvement
+- Reflects doubt that an "S" on the report predicts monotherapy success
+:::
+
+::: {.column width="45%"}
+**Why the caution?** [@Lasko2022]
+
+- Breakpoints largely **inherited** from other species
+- In vitro PK/PD: even \~20 mg/kg/day TMP failed to achieve stasis; up
+  to the equivalent of 100 mg/kg/day could not reach 1-log kill
+- Derived **free AUC/MIC stasis target ≈ 67** — pushing the dose does
+  not improve target attainment
+- Murine models poorly translational (high rodent thymidine)
+:::
+:::::
+
+::: callout-important
+First ask: **colonizer or true pathogen?** Steno agents are limited and
+often poorly tolerated — avoid treating culture results rather than
+disease.
+:::
+
+::: aside
+Clinical data are heavily confounded ("die *from* vs *with* steno"),
+mostly retrospective, frequently without MICs, and usually involve
+combination therapy — so monotherapy efficacy remains uncertain.
+Alternatives (e.g. levofloxacin, cefiderocol, ceftazidime-avibactam plus
+aztreonam) are also imperfect, making this a genuinely difficult
+treatment landscape.
+:::
+
+------------------------------------------------------------------------
 
 ## Other Clinical Uses
 
@@ -951,6 +989,109 @@ especially with prolonged use.
 
 ------------------------------------------------------------------------
 
+## Optimizing the dose: principles {.smaller}
+
+<br>
+
+::::: columns
+::: {.column width="55%"}
+**Dose the trimethoprim component**
+
+- Fixed 1:5 TMP:SMX ratio for all formulations
+- Express dose as **mg/kg/day of TMP**
+- SS = 80 mg TMP; DS = 160 mg TMP
+
+**Indication drives the target**
+
+- GN bacteremia (step-down): \~5 mg/kg q12h
+- CA-MRSA SSTI: \~5 mg/kg/day (1 DS BID most)
+- Bone/joint: \~10 mg/kg/day
+- PCP treatment: 15–20 mg/kg/day
+:::
+
+::: {.column width="45%"}
+**Why "optimal" is hard**
+
+- No validated PK/PD index (unlike vanco AUC/MIC)
+- Legacy targets extrapolated from 1970s–90s data
+- Emerging PK data suggest lower PCP doses (\<10 mg/kg/day) may retain
+  efficacy with fewer ADEs [@ButlerLaporte2020]
+- IV formulation adds large fluid/D5W burden
+:::
+:::::
+
+::: callout-tip
+Give an **actual mg dose** using the patient's real weight rather than a
+weight-based formula — reduces transcription and math errors. Use the
+**lowest effective dose** and get creative with split dosing/timing with
+meals to improve tolerability.
+:::
+
+::: aside
+Dosing schemes vary enormously by indication (a few tablets weekly to
+multiple tablets several times daily). Because there is no clear PK/PD
+target, recommendations lean heavily on package labeling, older PK
+literature, and retrospective step-down studies. For PCP, dose-limiting
+toxicity drives treatment failure in up to one-third of patients, which
+motivates interest in lower-dose strategies.
+:::
+
+------------------------------------------------------------------------
+
+## Possible role of therapeutic drug monitoring {.smaller}
+
+<br>
+
+::::: columns
+::: {.column width="55%"}
+**Rationale**
+
+- Wide interpatient PK variability
+- Narrow therapeutic margin at high doses (PCP)
+- Toxicities are largely **dose/exposure-dependent** (hyperkalemia,
+  marrow suppression, GI, rash)
+- No consensus PK/PD index → TDM remains investigational
+:::
+
+::: {.column width="45%"}
+**What is measured**
+
+- **Sulfamethoxazole** peak most commonly reported
+- Historical PCP peak target \~**100–150 µg/mL** (SMX), 1–2 h post-dose
+  [@Dao2014]
+- Modern POPPK: SMX peak \>100 mg/L & TMP \>5 mg/L (efficacy); toxicity
+  above SMX \>200, TMP \>15 mg/L [@Leegwater2025]
+- Trimethoprim levels measured less often; assays not widely available
+:::
+:::::
+
+**Where TDM may help most**
+
+- High-dose/prolonged PCP treatment with poor tolerability
+- Altered PK: obesity, augmented renal clearance, CRRT/dialysis,
+  critical illness
+- Difficult pathogens (e.g. *Stenotrophomonas*) where exposure–response
+  is uncertain
+
+::: callout-warning
+TDM for TMP-SMX is **not standardized** — assay access, validated
+targets, and outcome data are limited. Use alongside clinical response,
+renal function, potassium, and CBC rather than as a stand-alone
+endpoint.
+:::
+
+::: aside
+The lack of a validated PK/PD index is the central barrier: without a
+clear exposure target linked to outcome, TDM cannot yet be applied the
+way it is for vancomycin or aminoglycosides. Even so, measuring exposure
+may help individualize therapy in patients at the extremes of PK or
+those failing to tolerate standard high doses — targeting the lowest
+effective exposure to preserve efficacy while limiting dose-dependent
+harm.
+:::
+
+------------------------------------------------------------------------
+
 ## Desensitization Protocols
 
 <br>
@@ -973,14 +1114,11 @@ prophylaxis but have had prior reactions. It should only be done in a
 controlled setting by experienced clinicians.
 :::
 
-
-
 ## Contraindications
 
 <br>
 
 **Absolute:**
-
 
 - Known hypersensitivity to sulfonamides or TMP
 - History of SJS/TEN with sulfonamides
@@ -989,14 +1127,11 @@ controlled setting by experienced clinicians.
 - Pregnancy at term (\>32 weeks)
 - Infants \<2 months (except PCP)
 
-
 ::: aside
 These contraindications should be checked before prescribing. The infant
 age restriction is due to immature bilirubin metabolism and kernicterus
 risk.
 :::
-
-
 
 ## Monitoring recommendations
 
@@ -1016,10 +1151,7 @@ duration of therapy. Short courses in healthy patients need minimal
 monitoring; long-term use requires more attention.
 :::
 
-
 # PART 10: Clinical Cases {background-color="#b20e10"}
-
-
 
 ## Case 1: PCP Prophylaxis
 
@@ -1037,8 +1169,6 @@ monitoring; long-term use requires more attention.
 Pause for audience response. This is a straightforward indication for
 PCP prophylaxis.
 :::
-
-
 
 ## Case 1: Answer
 
@@ -1286,11 +1416,17 @@ TMP-SMX.
 
 8.  **Contraindications:** Late pregnancy, severe renal/hepatic
     impairment, SJS history
+
+9.  **Dose optimization:** Target the *lowest effective* TMP dose;
+    emerging data support lower-dose PCP, and TDM (SMX peak) may help
+    individualize therapy at PK extremes
 :::
 
 ::: notes
 Clinical application requires awareness of adverse effects and
 interactions. TMP-SMX remains valuable but must be used thoughtfully.
+The lowest-effective-dose principle and cautious use of TDM are
+increasingly relevant given dose-dependent toxicity.
 :::
 
 ## When to Choose TMP-SMX

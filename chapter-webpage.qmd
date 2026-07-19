@@ -1,9 +1,8 @@
 ---
-title: "Sulfonamides and Trimethoprim; Trimethoprim-Sulfamethoxazole"
-subtitle: "Chapter 33"
+title: "Sulfonamides and Trimethoprim: Trimethoprim-Sulfamethoxazole (TMP/SMX)"
+
 author:
-  - name: Robert C. Colgrove
-  - name: Stephen H. Zinner
+  - name: Russell E. Lewis
 date: today
 format:
   html:
@@ -11,7 +10,7 @@ format:
     toc-depth: 3
     number-sections: true
     code-fold: true
-bibliography: references.bib
+bibliography: tmp-smx-references.bib
 ---
 
 ## Short View Summary
@@ -28,6 +27,8 @@ bibliography: references.bib
 - Less common but serious adverse reactions include agranulocytosis, aplastic anemia, acute tubular necrosis, interstitial nephritis, drug-induced lupus, toxic epidermal necrolysis, and Stevens-Johnson syndrome. The risk of kernicterus precludes the use of sulfonamides in late pregnancy.
 
 - TMP-SMX is indicated for the prophylaxis of *P. jirovecii* in immunocompromised patients, including those with HIV infection.
+
+- Dosing is referenced to the trimethoprim component and varies widely by indication. In the absence of a validated pharmacodynamic index, the lowest effective dose is preferred; therapeutic drug monitoring and lower-dose strategies are areas of growing interest for improving the balance of efficacy and tolerability.
 :::
 
 ## Introduction
@@ -46,7 +47,7 @@ The clinically useful sulfonamides are derived from sulfanilamide, which is simi
 
 The nature of these substitutions determines other pharmacologic properties of the drug, such as absorption, solubility, and gastrointestinal tolerance. Substitutions at the 4-amino group result in decreased absorption from the gastrointestinal tract (e.g., phthalylsulfathiazole).
 
-![Sulfonamides. (A–F) Structural formulas of selected sulfonamides including sulfanilamide, para-aminobenzoic acid, sulfadiazine, sulfisoxazole, sulfamethoxazole, and sulfathalidine (phthalylsulfathiazole).](images/fig33-005.png){#fig-sulfonamides}
+![Sulfonamides. (A–F) Structural formulas of selected sulfonamides including sulfanilamide, para-aminobenzoic acid, sulfadiazine, sulfisoxazole, sulfamethoxazole, and sulfathalidine (phthalylsulfathiazole).](tmp-smx-images/sulfa_structres.png){#fig-sulfonamides}
 
 ### Derivation and Nomenclature
 
@@ -101,7 +102,7 @@ Sulfonamides exhibit in vitro inhibitory activity against a broad spectrum of gr
 
 ### Antimicrobial Resistance
 
-Resistance to sulfonamides is widespread and increasingly common in community-acquired and nosocomial strains of bacteria, including streptococci, staphylococci, Enterobacterales (formerly known as the Enterobacteriaceae), *Neisseria* spp., and *Pseudomonas* spp. Cross-resistance among different sulfonamides is common. In recent decades, sulfonamide resistance in Enterobacterales and gram-positive bacteria has increased substantially [@Huovinen2001; @Sköld2000].
+Resistance to sulfonamides is widespread and increasingly common in community-acquired and nosocomial strains of bacteria, including streptococci, staphylococci, Enterobacterales (formerly known as the Enterobacteriaceae), *Neisseria* spp., and *Pseudomonas* spp. Cross-resistance among different sulfonamides is common. In recent decades, sulfonamide resistance in Enterobacterales and gram-positive bacteria has increased substantially [@Huovinen1995; @Sköld2000].
 
 ::: {.callout-warning}
 ## Resistance Mechanisms
@@ -211,15 +212,13 @@ Melioidosis, dermatitis herpetiformis, lymphogranuloma venereum, and chancroid h
 
 ### Structure and Derivation
 
-Trimethoprim is a 2,4-diamino-5-(3',4',5'-trimethoxybenzyl) pyrimidine (@fig-trimethoprim). This drug was synthesized by Bushby and Hitchings as a DHFR inhibitor thought to potentiate the activity of sulfonamides by sequential inhibition of folic acid synthesis [@Bushby1968]. In the United States, trimethoprim is available as a single agent and in combination with sulfamethoxazole (co-trimoxazole; see later). Trimethoprim has antibacterial activity of its own.
-
-![Chemical structure of trimethoprim (2,4-diamino-5-[3',4',5'-trimethoxybenzyl] pyrimidine).](images/fig33-019.png){#fig-trimethoprim}
+Trimethoprim is a 2,4-diamino-5-(3',4',5'-trimethoxybenzyl) pyrimidine. This drug was synthesized by Bushby and Hitchings as a DHFR inhibitor thought to potentiate the activity of sulfonamides by sequential inhibition of folic acid synthesis [@Bushby1968]. In the United States, trimethoprim is available as a single agent and in combination with sulfamethoxazole (co-trimoxazole; see later). Trimethoprim has antibacterial activity of its own.
 
 ### Mechanism of Action
 
 Trimethoprim owes its activity to powerful inhibition of bacterial DHFR, which is the next enzymatic step after folic acid synthesis is blocked by sulfonamides. Trimethoprim is 50,000–100,000 times more active against bacterial DHFR than against the human enzyme. Trimethoprim interferes with the conversion of dihydrofolate to tetrahydrofolate, the precursor of folinic acid and ultimately of purine and DNA synthesis (@fig-folate-pathway). The sequential blockage of the same biosynthetic pathway by sulfonamides and trimethoprim results in a high degree of synergistic activity against a wide spectrum of microorganisms. Humans do not synthesize folic acid but require it in their diet, and human purine synthesis is not affected significantly by the enzyme inhibition of trimethoprim.
 
-![The folic acid synthesis pathway showing the sites of action of sulfonamides (blocking PABA incorporation) and trimethoprim (blocking DHFR).](images/fig33-020.png){#fig-folate-pathway}
+![The folic acid synthesis pathway showing the sites of action of sulfonamides (blocking PABA incorporation) and trimethoprim (blocking DHFR).](tmp-smx-images/folicacid.png){#fig-folate-pathway}
 
 ### Antimicrobial Activity
 
@@ -322,6 +321,50 @@ Standard dosing for adults:
 
 Hemodialysis: Give dose after dialysis
 :::
+
+### Optimal Dosing and Pharmacodynamic Considerations
+
+TMP-SMX dosing is notoriously error-prone, and a few principles help avoid mistakes:
+
+- **Dose by the trimethoprim component.** The fixed 1:5 TMP:SMX ratio is preserved across all formulations, so dosing decisions reference only the trimethoprim component and are typically expressed as mg/kg/day of TMP. A single-strength tablet contains 80 mg TMP; a double-strength (DS) tablet contains 160 mg TMP.
+- **Match the target to the indication.** Trimethoprim requirements range widely: approximately 5 mg/kg every 12 hours for oral step-down of uncomplicated gram-negative bacteremia [@Heil2021]; roughly 5 mg/kg/day (commonly 1 DS twice daily) for community-acquired MRSA skin and soft-tissue infection; closer to 10 mg/kg/day for bone and joint infection to offset reduced tissue penetration and the effect of exogenous thymidine; and 15–20 mg/kg/day for PCP.
+- **No validated PK/PD index.** Unlike vancomycin (AUC/MIC), TMP-SMX lacks a well-defined pharmacodynamic target with an established therapeutic range. Recommendations therefore lean on package labeling, older pharmacokinetic literature, and retrospective step-down experience.
+- **Use the lowest effective dose.** Most important adverse effects are dose- or exposure-dependent, so overexposure should be avoided. Calculating an actual milligram dose from the patient's measured weight—rather than passing along a weight-based formula for someone else to compute—reduces math and transcription errors.
+- **Mind the intravenous fluid burden.** IV TMP-SMX must be diluted (75–125 mL per 80 mg TMP) and is poorly stable; clinical doses can deliver 300–500 mL of 5% dextrose in water several times daily, which is often poorly tolerated in critically ill patients. The excellent oral bioavailability makes early conversion to oral therapy attractive.
+
+For PCP specifically, dose-limiting toxicity contributes to treatment failure in up to one-third of patients. Observational data suggest that lower trimethoprim doses (<10 mg/kg/day) may retain efficacy with fewer adverse events, although this has not been confirmed in randomized trials [@ButlerLaporte2020]. A pragmatic approach is to begin at the standard dose and, if tolerability becomes limiting, attempt a modest dose reduction or creative split dosing timed with meals before switching agents.
+
+| Feature | Standard dose | Lower dose |
+|---------|---------------|------------|
+| Trimethoprim dose | 15–20 mg/kg/day | <10 mg/kg/day |
+| Evidence base | Longstanding; guideline-endorsed | Observational studies and a systematic review |
+| Mortality | Reference standard | Similar in available data |
+| Treatment-related adverse events | More frequent | Significantly fewer |
+| Guideline status | Recommended first-line | Not yet validated in randomized trials |
+
+: PCP treatment—standard-dose versus lower-dose TMP-SMX (trimethoprim component) [@ButlerLaporte2020] {#tbl-pcp-dose}
+
+### Therapeutic Drug Monitoring
+
+Therapeutic drug monitoring (TDM) for TMP-SMX remains investigational and is not standardized, but it may help individualize therapy given the wide interpatient pharmacokinetic variability and the narrow tolerability margin at high (PCP-treatment) doses.
+
+- **What is measured.** The sulfamethoxazole peak concentration is most commonly reported. A historical target peak of approximately 100–150 µg/mL (drawn 1–2 hours post-dose) derives from early pediatric PCP data, though this range is difficult to achieve reliably in practice [@Dao2014].
+- **Modern targets.** A 2025 population-pharmacokinetic analysis associated efficacy with sulfamethoxazole peaks >100 mg/L and trimethoprim concentrations >5 mg/L, and associated toxicity with sulfamethoxazole >200 mg/L, N-acetyl-sulfamethoxazole >75 mg/L, and trimethoprim >15 mg/L [@Leegwater2025].
+- **Where it may help most.** High-dose or prolonged PCP treatment with poor tolerability; altered pharmacokinetics (obesity, augmented renal clearance, dialysis or continuous renal replacement therapy, critical illness); and difficult pathogens where the exposure–response relationship is uncertain.
+
+Because no consensus PK/PD index exists, TDM should complement—not replace—assessment of clinical response, renal function, potassium, and blood counts.
+
+### Stenotrophomonas maltophilia: Dosing and the Shift Toward Combination Therapy
+
+TMP-SMX is frequently the preferred agent against *S. maltophilia*, which is intrinsically resistant to many antibiotic classes, and it is valuable for oral step-down. For infections other than cystitis, current guidance suggests 8–12 mg/kg/day of the trimethoprim component divided every 8–12 hours, with consideration of a maximum of approximately 960 mg TMP/day.
+
+Recent guidance has shifted toward using TMP-SMX as part of **combination therapy**, at least until clinical improvement is observed, rather than as monotherapy [@Tamma2024]. This reflects several concerns:
+
+- Many *S. maltophilia* breakpoints were inherited from other species rather than derived from organism-specific pharmacodynamic data.
+- In vitro pharmacodynamic studies found that even high trimethoprim exposures—up to the equivalent of 100 mg/kg/day—failed to produce net bacterial killing, yielding only a stasis target (free AUC/MIC ≈ 67) with little added benefit from dose escalation [@Lasko2022].
+- Clinical data are largely retrospective, frequently lack reported MICs, and are confounded by concurrent use of other active agents.
+
+A practical first step is to judge whether the organism is a true pathogen or a colonizer before committing to therapy, given the limited and often poorly tolerated treatment options.
 
 ### Adverse Effects
 

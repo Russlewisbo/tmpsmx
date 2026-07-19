@@ -37,7 +37,26 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="chapter-slides_files/libs/revealjs/dist/theme/quarto-30b9468806e00b78aebc81cf53c5f7db.css">
   <link href="chapter-slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="chapter-slides_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -371,7 +390,7 @@ Russell E. Lewis
 
 </section>
 <section id="the-folic-acid-pathway" class="slide level2 center">
-<h2>The Folic acid pathway</h2>
+<h2>The folic acid pathway</h2>
 <p><br></p>
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -581,6 +600,7 @@ Russell E. Lewis
 <ul>
 <li><em>S. aureus</em> (including many CA-MRSA)</li>
 <li><em>S. pneumoniae</em> (resistance increasing)</li>
+<li>Other <em>Streptococci</em> (classically throught to be hole in spectrum)</li>
 <li><em>Listeria monocytogenes</em></li>
 <li><em>Nocardia</em> species</li>
 </ul>
@@ -668,13 +688,11 @@ Russell E. Lewis
 <section id="mechanisms-of-resistance" class="slide level2 center">
 <h2>Mechanisms of resistance</h2>
 <p><br></p>
-<p><strong>Sulfonamide resistance:</strong></p>
-<ol type="1">
-<li class="fragment">Point mutations in <em>folP</em> gene (altered DHPS)</li>
-<li class="fragment">PABA overproduction</li>
-<li class="fragment">Plasmid-mediated <em>sul1</em>, <em>sul2</em>, <em>sul3</em> genes</li>
-<li class="fragment">Decreased cell permeability</li>
-</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="tmp-smx-images/sulfa_r.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="tmp-smx-images/sulfa_r.png" class="quarto-figure quarto-figure-center" width="800"></a></p>
+</figure>
+</div>
 
 <aside><div>
 <p>Multiple mechanisms can operate simultaneously. The sul genes are particularly concerning as they’re often carried on mobile genetic elements like integrons.</p>
@@ -682,13 +700,11 @@ Russell E. Lewis
 <section id="mechanisms-of-resistance-continued" class="slide level2 center">
 <h2>Mechanisms of resistance (continued)</h2>
 <p><br></p>
-<p><strong>Trimethoprim resistance:</strong></p>
-<ol type="1">
-<li>Point mutations in <em>dfrA</em> gene (altered DHFR)</li>
-<li>Plasmid-mediated <em>dfr</em> genes (&gt;30 variants!)</li>
-<li>DHFR overproduction</li>
-<li>Decreased permeability</li>
-</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="tmp-smx-images/tmp_R.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="tmp-smx-images/tmp_R.png" class="quarto-figure quarto-figure-center" width="800"></a></p>
+</figure>
+</div>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -1301,6 +1317,48 @@ Russell E. Lewis
 <p>Stenotrophomonas is notoriously resistant to carbapenems and many other agents. TMP-SMX activity is a major advantage, especially for converting IV therapy to an oral option.</p>
 </div>
 </section>
+<section id="stenotrophomonas-dosing-the-combination-therapy-shift" class="slide level2 smaller center">
+<h2>Stenotrophomonas: dosing &amp; the combination-therapy shift</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:55%;">
+<p><strong>Current dosing (non-cystitis)</strong></p>
+<ul>
+<li><strong>8–12 mg/kg/day</strong> TMP, divided q8–12h</li>
+<li>Consider a <strong>max of ~960 mg/day</strong> TMP</li>
+<li>Cystitis: lower doses acceptable (high urinary levels)</li>
+</ul>
+<p><strong>The recent shift</strong> <span class="citation" data-cites="Tamma2024">(<a href="#/references" role="doc-biblioref" onclick="">Tamma et al. 2024</a>)</span></p>
+<ul>
+<li>IDSA guidance now favors TMP-SMX <strong>as part of combination therapy</strong>, at least until clinical improvement</li>
+<li>Reflects doubt that an “S” on the report predicts monotherapy success</li>
+</ul>
+</div><div class="column" style="width:45%;">
+<p><strong>Why the caution?</strong> <span class="citation" data-cites="Lasko2022">(<a href="#/references" role="doc-biblioref" onclick="">Lasko et al. 2022</a>)</span></p>
+<ul>
+<li>Breakpoints largely <strong>inherited</strong> from other species</li>
+<li>In vitro PK/PD: even ~20 mg/kg/day TMP failed to achieve stasis; up to the equivalent of 100 mg/kg/day could not reach 1-log kill</li>
+<li>Derived <strong>free AUC/MIC stasis target ≈ 67</strong> — pushing the dose does not improve target attainment</li>
+<li>Murine models poorly translational (high rodent thymidine)</li>
+</ul>
+</div></div>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>First ask: <strong>colonizer or true pathogen?</strong> Steno agents are limited and often poorly tolerated — avoid treating culture results rather than disease.</p>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p>Clinical data are heavily confounded (“die <em>from</em> vs <em>with</em> steno”), mostly retrospective, frequently without MICs, and usually involve combination therapy — so monotherapy efficacy remains uncertain. Alternatives (e.g.&nbsp;levofloxacin, cefiderocol, ceftazidime-avibactam plus aztreonam) are also imperfect, making this a genuinely difficult treatment landscape.</p>
+</div></aside></section>
 <section id="other-clinical-uses" class="slide level2 center">
 <h2>Other Clinical Uses</h2>
 <p><br></p>
@@ -1421,6 +1479,94 @@ Russell E. Lewis
           display:block!important;
       }</style></aside>
 </section>
+<section id="optimizing-the-dose-principles" class="slide level2 smaller center">
+<h2>Optimizing the dose: principles</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:55%;">
+<p><strong>Dose the trimethoprim component</strong></p>
+<ul>
+<li>Fixed 1:5 TMP:SMX ratio for all formulations</li>
+<li>Express dose as <strong>mg/kg/day of TMP</strong></li>
+<li>SS = 80 mg TMP; DS = 160 mg TMP</li>
+</ul>
+<p><strong>Indication drives the target</strong></p>
+<ul>
+<li>GN bacteremia (step-down): ~5 mg/kg q12h</li>
+<li>CA-MRSA SSTI: ~5 mg/kg/day (1 DS BID most)</li>
+<li>Bone/joint: ~10 mg/kg/day</li>
+<li>PCP treatment: 15–20 mg/kg/day</li>
+</ul>
+</div><div class="column" style="width:45%;">
+<p><strong>Why “optimal” is hard</strong></p>
+<ul>
+<li>No validated PK/PD index (unlike vanco AUC/MIC)</li>
+<li>Legacy targets extrapolated from 1970s–90s data</li>
+<li>Emerging PK data suggest lower PCP doses (&lt;10 mg/kg/day) may retain efficacy with fewer ADEs <span class="citation" data-cites="ButlerLaporte2020">(<a href="#/references" role="doc-biblioref" onclick="">Butler-Laporte et al. 2020</a>)</span></li>
+<li>IV formulation adds large fluid/D5W burden</li>
+</ul>
+</div></div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Give an <strong>actual mg dose</strong> using the patient’s real weight rather than a weight-based formula — reduces transcription and math errors. Use the <strong>lowest effective dose</strong> and get creative with split dosing/timing with meals to improve tolerability.</p>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p>Dosing schemes vary enormously by indication (a few tablets weekly to multiple tablets several times daily). Because there is no clear PK/PD target, recommendations lean heavily on package labeling, older PK literature, and retrospective step-down studies. For PCP, dose-limiting toxicity drives treatment failure in up to one-third of patients, which motivates interest in lower-dose strategies.</p>
+</div></aside></section>
+<section id="possible-role-of-therapeutic-drug-monitoring" class="slide level2 smaller center">
+<h2>Possible role of therapeutic drug monitoring</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:55%;">
+<p><strong>Rationale</strong></p>
+<ul>
+<li>Wide interpatient PK variability</li>
+<li>Narrow therapeutic margin at high doses (PCP)</li>
+<li>Toxicities are largely <strong>dose/exposure-dependent</strong> (hyperkalemia, marrow suppression, GI, rash)</li>
+<li>No consensus PK/PD index → TDM remains investigational</li>
+</ul>
+</div><div class="column" style="width:45%;">
+<p><strong>What is measured</strong></p>
+<ul>
+<li><strong>Sulfamethoxazole</strong> peak most commonly reported</li>
+<li>Historical PCP peak target ~<strong>100–150 µg/mL</strong> (SMX), 1–2 h post-dose <span class="citation" data-cites="Dao2014">(<a href="#/references" role="doc-biblioref" onclick="">Dao et al. 2014</a>)</span></li>
+<li>Modern POPPK: SMX peak &gt;100 mg/L &amp; TMP &gt;5 mg/L (efficacy); toxicity above SMX &gt;200, TMP &gt;15 mg/L <span class="citation" data-cites="Leegwater2025">(<a href="#/references" role="doc-biblioref" onclick="">Leegwater et al. 2025</a>)</span></li>
+<li>Trimethoprim levels measured less often; assays not widely available</li>
+</ul>
+</div></div>
+<p><strong>Where TDM may help most</strong></p>
+<ul>
+<li>High-dose/prolonged PCP treatment with poor tolerability</li>
+<li>Altered PK: obesity, augmented renal clearance, CRRT/dialysis, critical illness</li>
+<li>Difficult pathogens (e.g.&nbsp;<em>Stenotrophomonas</em>) where exposure–response is uncertain</li>
+</ul>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Warning</strong></p>
+</div>
+<div class="callout-content">
+<p>TDM for TMP-SMX is <strong>not standardized</strong> — assay access, validated targets, and outcome data are limited. Use alongside clinical response, renal function, potassium, and CBC rather than as a stand-alone endpoint.</p>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p>The lack of a validated PK/PD index is the central barrier: without a clear exposure target linked to outcome, TDM cannot yet be applied the way it is for vancomycin or aminoglycosides. Even so, measuring exposure may help individualize therapy in patients at the extremes of PK or those failing to tolerate standard high doses — targeting the lowest effective exposure to preserve efficacy while limiting dose-dependent harm.</p>
+</div></aside></section>
 <section id="desensitization-protocols" class="slide level2 center">
 <h2>Desensitization Protocols</h2>
 <p><br></p>
@@ -1803,9 +1949,10 @@ Russell E. Lewis
 <li class="fragment"><p><strong>Adverse effects:</strong> Higher in HIV; watch for SJS/TEN, hyperkalemia</p></li>
 <li class="fragment"><p><strong>Drug interactions:</strong> Warfarin, methotrexate, ACEi/ARBs</p></li>
 <li class="fragment"><p><strong>Contraindications:</strong> Late pregnancy, severe renal/hepatic impairment, SJS history</p></li>
+<li class="fragment"><p><strong>Dose optimization:</strong> Target the <em>lowest effective</em> TMP dose; emerging data support lower-dose PCP, and TDM (SMX peak) may help individualize therapy at PK extremes</p></li>
 </ol>
 <aside class="notes">
-<p>Clinical application requires awareness of adverse effects and interactions. TMP-SMX remains valuable but must be used thoughtfully.</p>
+<p>Clinical application requires awareness of adverse effects and interactions. TMP-SMX remains valuable but must be used thoughtfully. The lowest-effective-dose principle and cautious use of TDM are increasingly relevant given dose-dependent toxicity.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1850,10 +1997,27 @@ Russell E. Lewis
           display:block!important;
       }</style></aside>
 </section>
-<section id="references" class="slide level2 center">
+<section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
 <p><br></p>
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-ButlerLaporte2020" class="csl-entry" role="listitem">
+Butler-Laporte, Guillaume, Elizabeth Smyth, Alexandre Amar-Zifkin, Matthew P. Cheng, Emily G. McDonald, and Todd C. Lee. 2020. <span>“Low-Dose Trimethoprim-Sulfamethoxazole for the Treatment of <span class="nocase">Pneumocystis jirovecii</span> Pneumonia: A Systematic Review and Meta-Analysis.”</span> <em>Open Forum Infectious Diseases</em> 7 (5): ofaa112. <a href="https://doi.org/10.1093/ofid/ofaa112">https://doi.org/10.1093/ofid/ofaa112</a>.
+</div>
+<div id="ref-Dao2014" class="csl-entry" role="listitem">
+Dao, Betsy D., Jason N. Barreto, Robert C. Wolf, Ross A. Dierkhising, Matthew F. Plevak, and Pritish K. Tosh. 2014. <span>“Serum Peak Sulfamethoxazole Concentrations Demonstrate Difficulty in Achieving a Target Range: A Retrospective Cohort Study.”</span> <em>Current Therapeutic Research</em> 76: 104–9. <a href="https://doi.org/10.1016/j.curtheres.2014.08.003">https://doi.org/10.1016/j.curtheres.2014.08.003</a>.
+</div>
+<div id="ref-Lasko2022" class="csl-entry" role="listitem">
+Lasko, Maxwell J., Matthew L. Gethers, Jennifer L. Tabor-Rennie, David P. Nicolau, and Joseph L. Kuti. 2022. <span>“In Vitro Time-Kill and Pharmacodynamics of Trimethoprim-Sulfamethoxazole Against <span class="nocase">Stenotrophomonas maltophilia</span>.”</span> <em>Antimicrobial Agents and Chemotherapy</em> 66 (2): e0158321. <a href="https://doi.org/10.1128/AAC.01583-21">https://doi.org/10.1128/AAC.01583-21</a>.
+</div>
+<div id="ref-Leegwater2025" class="csl-entry" role="listitem">
+Leegwater, Emiel, Lauren Baidjoe, Erik B. Wilms, et al. 2025. <span>“Population Pharmacokinetics of Trimethoprim/Sulfamethoxazole: Dosage Optimization for Patients with Renal Insufficiency or Receiving Continuous Renal Replacement Therapy.”</span> <em>Clinical Pharmacology and Therapeutics</em> 117 (1): 184–92. <a href="https://doi.org/10.1002/cpt.3421">https://doi.org/10.1002/cpt.3421</a>.
+</div>
+<div id="ref-Tamma2024" class="csl-entry" role="listitem">
+Tamma, Pranita D., Emily L. Heil, Julie Ann Justo, Amy J. Mathers, Michael J. Satlin, and Robert A. Bonomo. 2024. <span>“Infectious Diseases Society of America 2024 Guidance on the Treatment of Antimicrobial-Resistant Gram-Negative Infections.”</span> <em>Clinical Infectious Diseases</em>, ciae403. <a href="https://doi.org/10.1093/cid/ciae403">https://doi.org/10.1093/cid/ciae403</a>.
+</div>
+</div>
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
