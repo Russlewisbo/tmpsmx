@@ -112,6 +112,8 @@ Organisms may develop point mutations in the *folP* gene, which encodes a struct
 Resistance also may be mediated by integrons that carry *sul1*, *sul2*, and *sul3* genes, which code for the production of drug-resistant enzymes, such as dihydropteroate synthase, or by plasmids that decrease bacterial cell permeability to sulfonamides. Plasmid transfer can occur in the gastrointestinal tract in vivo and has been seen with multiple species of *Enterobacterales*. More than one resistance mechanism may be operating simultaneously.
 :::
 
+![Mechanisms of sulfonamide resistance, including point mutations in *folP* that alter dihydropteroate synthase, PABA overproduction, decreased cell permeability, and plasmid- or integron-borne *sul1*, *sul2*, and *sul3* genes.](tmp-smx-images/sulfa_r.png){#fig-sulfa-resistance}
+
 Plasmid-mediated sulfonamide resistance in diverse species has increased greatly in recent years, often in conjunction with trimethoprim resistance. The majority of *Salmonella* isolates from human or animal origin are resistant to sulfonamides, often in conjunction with resistance to other antibiotic classes. The presence of the *sul2* gene is responsible for high-level sulfonamide resistance among *Shigella* isolates in Latin America. A US survey showed that 32% of *Shigella* isolates were sulfonamide resistant, as are more than 75% of isolates in China. TMP-SMX resistance in isolates from China were found to be associated with acquisition of mutant *sul1* and *sul2* dihydropteroate synthase genes.
 
 The increase in sulfonamide-resistant *Haemophilus ducreyi* in Asia and Africa has been associated with a plasmid related to those found in *Enterobacterales*. Bacterial resistance to sulfonamides increased among human immunodeficiency virus (HIV)–infected patients during the era of increased use of TMP-SMX prophylaxis.
@@ -225,6 +227,8 @@ Trimethoprim owes its activity to powerful inhibition of bacterial DHFR, which i
 Trimethoprim is active in vitro against many gram-positive cocci and most gram-negative rods, except for *Pseudomonas aeruginosa*. *Treponema pallidum*, *Mycobacterium tuberculosis*, *Mycoplasma* spp., and most anaerobes are resistant. Thymidine inhibits the in vitro activity of trimethoprim, but the addition of thymidine phosphorylase or 5% lysed horse blood, which releases the phosphorylase to Mueller-Hinton medium or other susceptibility testing media, removes this inhibition. The minimal inhibitory concentration (MIC) varies considerably with the medium used.
 
 Trimethoprim alone has good in vitro activity against *H. influenzae*; a survey has shown that 76% of 978 strains remain susceptible, but higher resistance rates are reported elsewhere. *S. pyogenes* MICs have been reported at less than or equal to 2 µg/mL, but transferable genes mediating resistance to trimethoprim are increasingly common and limit usefulness against these organisms.
+
+![Mechanisms of trimethoprim resistance, including point mutations in *dfrA* that alter dihydrofolate reductase, plasmid-mediated *dfr* genes (more than 30 variants), DHFR overproduction, and decreased permeability.](tmp-smx-images/tmp_R.png){#fig-tmp-resistance}
 
 ## Trimethoprim-Sulfamethoxazole (TMP-SMX)
 

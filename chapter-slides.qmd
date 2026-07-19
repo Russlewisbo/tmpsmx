@@ -347,7 +347,8 @@ deplete folate stores, especially in malnourished patients.
 
 - *S. aureus* (including many CA-MRSA)
 - *S. pneumoniae* (resistance increasing)
-- Other *Streptococci* (classically throught to be hole in spectrum)
+- Group A, B *Streptococci* (classically throught to be
+  resistant-artifact of thymidine in test medium)
 - *Listeria monocytogenes*
 - *Nocardia* species
 
@@ -520,7 +521,7 @@ adjustment is needed in renal impairment. The high urinary
 concentrations also explain the effectiveness for UTIs.
 :::
 
-## Renal Dosing Adjustments
+## Renal dosing adjustments
 
 <br>
 
@@ -568,11 +569,9 @@ clinical practice. Taking with food may help. The dramatically higher
 reaction rate in HIV patients is important to anticipate.
 :::
 
-## Serious adverse effects
-
 <br>
 
-## Life-Threatening Reactions
+## Life-threatening reactions
 
 <br>
 
@@ -792,7 +791,8 @@ Check your local antibiogram! Many areas now have E. coli resistance
 ::: aside
 TMP-SMX was once first-line for UTIs everywhere. Now, due to resistance,
 IDSA guidelines recommend it only in areas where resistance remains
-below 20%. Fluoroquinolones or nitrofurantoin may be preferred.
+below 20%. Fluoroquinolones or nitrofurantoin/fosfomycin may be
+preferred.
 :::
 
 ## Skin and soft tissue infections
@@ -864,13 +864,13 @@ oral, well-tolerated, and usually effective.
 
 **Alternative:** Imipenem, amikacin, linezolid
 
-::: notes
+::: aside
 Nocardiosis requires prolonged therapy due to the organism's slow
 growth. For CNS disease, even longer courses may be needed. TMP-SMX
 penetrates well into brain abscesses.
 :::
 
-------------------------------------------------------------------------
+
 
 ## Stenotrophomonas maltophilia
 
@@ -889,13 +889,13 @@ Think about *Stenotrophomonas* in: - ICU patients on broad-spectrum
 antibiotics - Ventilator-associated pneumonia - Malignancy patients
 :::
 
-::: asude
+::: aside
 Stenotrophomonas is notoriously resistant to carbapenems and many other
 agents. TMP-SMX activity is a major advantage, especially for converting
 IV therapy to an oral option.
 :::
 
-------------------------------------------------------------------------
+
 
 ## Stenotrophomonas: dosing & the combination-therapy shift {.smaller}
 
@@ -943,9 +943,9 @@ aztreonam) are also imperfect, making this a genuinely difficult
 treatment landscape.
 :::
 
-------------------------------------------------------------------------
 
-## Other Clinical Uses
+
+## Other clinical uses
 
 <br>
 
@@ -957,19 +957,18 @@ treatment landscape.
 | Cyclosporiasis      | 1 DS BID     | 7-10 days |
 | Listeria meningitis | High-dose IV | 3+ weeks  |
 
-::: notes
+::: aside
 TMP-SMX remains useful for a variety of infections beyond the major
 indications. For listeria, it's an important alternative for
 penicillin-allergic patients.
 :::
 
-------------------------------------------------------------------------
+
 
 # PART 9: Practical Prescribing {background-color="#b20e10"}
 
-------------------------------------------------------------------------
 
-## Dosing Summary
+## Dosing summary
 
 <br>
 
@@ -981,13 +980,13 @@ penicillin-allergic patients.
 | SSTI              | 1-2 DS          | BID            | 5-10 days  |
 | Nocardiosis       | 15 mg/kg TMP    | Divided        | 6-12 mo    |
 
-::: notes
+::: aside
 This table provides a quick reference for common dosing regimens.
 Remember to adjust for renal function and monitor for adverse effects,
 especially with prolonged use.
 :::
 
-------------------------------------------------------------------------
+
 
 ## Optimizing the dose: principles {.smaller}
 
@@ -1036,7 +1035,7 @@ toxicity drives treatment failure in up to one-third of patients, which
 motivates interest in lower-dose strategies.
 :::
 
-------------------------------------------------------------------------
+
 
 ## Possible role of therapeutic drug monitoring {.smaller}
 
@@ -1090,9 +1089,9 @@ effective exposure to preserve efficacy while limiting dose-dependent
 harm.
 :::
 
-------------------------------------------------------------------------
 
-## Desensitization Protocols
+
+## Desensitization protocols
 
 <br>
 
@@ -1108,7 +1107,7 @@ harm.
 - Hospital setting with anaphylaxis capability
 - Success rate \~70-80%
 
-::: aide
+::: aside
 Desensitization can be life-saving for HIV patients who need PCP
 prophylaxis but have had prior reactions. It should only be done in a
 controlled setting by experienced clinicians.
@@ -1165,10 +1164,6 @@ monitoring; long-term use requires more attention.
 
 **Question:** What prophylaxis do you recommend?
 
-::: notes
-Pause for audience response. This is a straightforward indication for
-PCP prophylaxis.
-:::
 
 ## Case 1: Answer
 
@@ -1185,13 +1180,13 @@ Key points:
 - Also provides protection against toxoplasmosis
 :::
 
-::: notes
+::: aside
 TMP-SMX prophylaxis can be discontinued once CD4 counts have been \>200
 for at least 3 months on effective ART. The 3x weekly dosing may be
 considered if daily dosing causes GI intolerance.
 :::
 
-------------------------------------------------------------------------
+
 
 ## Case 2: UTI in 2025
 
@@ -1205,12 +1200,7 @@ considered if daily dosing causes GI intolerance.
 
 **Question:** Is TMP-SMX appropriate?
 
-::: notes
-Pause for response. This highlights the importance of local resistance
-patterns.
-:::
 
-------------------------------------------------------------------------
 
 ## Case 2: Answer
 
@@ -1228,15 +1218,15 @@ Better options:
 
 **Rule:** TMP-SMX only if local resistance \<20%
 
-::: notes
+::: aside
 This illustrates why knowing your local antibiogram is essential.
 TMP-SMX would have been first-line 20 years ago but is no longer
 appropriate in many areas.
 :::
 
-------------------------------------------------------------------------
 
-## Case 3: Hyperkalemia Risk
+
+## Case 3: Hyperkalemia risk
 
 <br>
 
@@ -1248,12 +1238,11 @@ appropriate in many areas.
 
 **What's the concern?**
 
-::: notes
+::: aside
 Multiple hyperkalemia risk factors: age, CKD, ACE inhibitor, and
 potassium-sparing diuretic!
 :::
 
-------------------------------------------------------------------------
 
 ## Case 3: Answer
 
@@ -1263,12 +1252,12 @@ potassium-sparing diuretic!
 
 Risk factors present:
 
-::: incremental
+
 - Age \>65 ✓
 - CKD (CrCl 35) ✓
 - ACE inhibitor ✓
 - Spironolactone ✓
-:::
+
 
 **Management:**
 
@@ -1277,16 +1266,15 @@ Risk factors present:
 - Consider holding spironolactone during treatment
 - Alternative antibiotic if K+ \>5.5
 
-::: notes
+::: aside
 This patient has essentially every risk factor for TMP-SMX induced
 hyperkalemia. Close monitoring and potentially holding the
 spironolactone would be prudent. Some might argue for a different
 antibiotic choice entirely.
 :::
 
-------------------------------------------------------------------------
 
-## Case 4: The Rash
+## Case 4: The rash
 
 <br>
 
@@ -1299,13 +1287,12 @@ antibiotic choice entirely.
 
 **Options?**
 
-::: notes
+::: aside
 This is a common scenario. The key is distinguishing mild reactions that
 might be managed from severe reactions requiring immediate
 discontinuation.
 :::
 
-------------------------------------------------------------------------
 
 ## Case 4: Answer
 
@@ -1313,11 +1300,11 @@ discontinuation.
 
 **Options to consider:**
 
-::: incremental
+
 1.  **Stop TMP-SMX** and use alternative (dapsone, atovaquone)
 2.  **Continue with antihistamines** (mild reactions may resolve)
 3.  **Plan for desensitization** if alternative poorly tolerated
-:::
+
 
 **Red flags requiring immediate discontinuation:**
 
@@ -1326,15 +1313,15 @@ discontinuation.
 - Blistering or desquamation
 - Fever \>38.5°C
 
-::: notes
+::: aside
 Without red flags, some practitioners will continue through mild rashes
 with symptomatic treatment, as reactions sometimes resolve
 spontaneously. However, close monitoring is essential.
 :::
 
-------------------------------------------------------------------------
 
-## Case 5: Drug Interaction
+
+## Case 5: Drug interaction
 
 <br>
 
@@ -1347,11 +1334,6 @@ spontaneously. However, close monitoring is essential.
 
 **What happened?**
 
-::: notes
-Classic TMP-SMX + warfarin interaction. Very common in practice.
-:::
-
-------------------------------------------------------------------------
 
 ## Case 5: Answer
 
@@ -1369,23 +1351,23 @@ Management:
 - **Always reduce warfarin when starting TMP-SMX**
 :::
 
-::: notes
+::: aside
 This interaction is predictable and preventable. Best practice is to
 empirically reduce warfarin dose by 25-50% when starting TMP-SMX and
 monitor INR closely.
 :::
 
-------------------------------------------------------------------------
+
 
 # Summary and Key Takeaways {background-color="#b20e10"}
 
-------------------------------------------------------------------------
+
 
 ## Key Points to Remember (1/2)
 
 <br>
 
-::: incremental
+
 1.  **Mechanism:** Sequential blockade of folate synthesis (DHPS + DHFR)
 
 2.  **Synergy:** Combination is bactericidal; components alone are
@@ -1394,20 +1376,13 @@ monitor INR closely.
 3.  **Spectrum:** Broad, but NOT Pseudomonas or anaerobes
 
 4.  **Resistance:** Increasing; always check local patterns for UTIs
-:::
 
-::: notes
-These are the fundamental concepts that should guide clinical use of
-TMP-SMX.
-:::
-
-------------------------------------------------------------------------
 
 ## Key Points to Remember (2/2)
 
 <br>
 
-::: incremental
+
 5.  **PCP:** First-line for both treatment and prophylaxis
 
 6.  **Adverse effects:** Higher in HIV; watch for SJS/TEN, hyperkalemia
@@ -1420,9 +1395,9 @@ TMP-SMX.
 9.  **Dose optimization:** Target the *lowest effective* TMP dose;
     emerging data support lower-dose PCP, and TDM (SMX peak) may help
     individualize therapy at PK extremes
-:::
 
-::: notes
+
+::: aside
 Clinical application requires awareness of adverse effects and
 interactions. TMP-SMX remains valuable but must be used thoughtfully.
 The lowest-effective-dose principle and cautious use of TDM are
@@ -1447,11 +1422,6 @@ increasingly relevant given dose-dependent toxicity.
 - Multiple hyperkalemia risk factors
 - Drug interactions (warfarin, MTX)
 - Late pregnancy
-
-::: notes
-This slide can serve as a quick clinical decision aid. TMP-SMX remains
-highly valuable when used appropriately.
-:::
 
 ## References
 
