@@ -891,6 +891,7 @@ penetrates well into brain abscesses.
 
 - Intrinsic multidrug resistance
 - TMP-SMX usually active
+- Ceftazidime-avibactam + aztreonam or cefidericol may be preferrable in some populations 
 - Important for step-down therapy
 
 ::: callout-tip
@@ -898,13 +899,13 @@ Think about *Stenotrophomonas* in: - ICU patients on broad-spectrum
 antibiotics - Ventilator-associated pneumonia - Malignancy patients
 :::
 
-::: notes
+::: asude
 Stenotrophomonas is notoriously resistant to carbapenems and many other
 agents. TMP-SMX activity is a major advantage, especially for converting
 IV therapy to an oral option.
 :::
 
-------------------------------------------------------------------------
+
 
 ## Other Clinical Uses
 
@@ -980,14 +981,14 @@ controlled setting by experienced clinicians.
 
 **Absolute:**
 
-::: incremental
+
 - Known hypersensitivity to sulfonamides or TMP
 - History of SJS/TEN with sulfonamides
 - Megaloblastic anemia from folate deficiency
 - Severe hepatic or renal impairment
 - Pregnancy at term (\>32 weeks)
 - Infants \<2 months (except PCP)
-:::
+
 
 ::: aside
 These contraindications should be checked before prescribing. The infant
@@ -997,7 +998,7 @@ risk.
 
 
 
-## Monitoring Recommendations
+## Monitoring recommendations
 
 <br>
 
@@ -1009,17 +1010,16 @@ risk.
 | LFTs       | If prolonged use       | Hepatotoxicity     |
 | INR        | If on warfarin         | Interaction        |
 
-::: notes
+::: aside
 The extent of monitoring depends on the patient's risk factors and
 duration of therapy. Short courses in healthy patients need minimal
 monitoring; long-term use requires more attention.
 :::
 
-------------------------------------------------------------------------
 
 # PART 10: Clinical Cases {background-color="#b20e10"}
 
-------------------------------------------------------------------------
+
 
 ## Case 1: PCP Prophylaxis
 
@@ -1038,7 +1038,7 @@ Pause for audience response. This is a straightforward indication for
 PCP prophylaxis.
 :::
 
-------------------------------------------------------------------------
+
 
 ## Case 1: Answer
 
