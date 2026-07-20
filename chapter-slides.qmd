@@ -18,7 +18,7 @@ editor:
     wrap: 72
 ---
 
-## Sulfonamides and Trimethoprim: TMP-SMX {background-video="tmp-smx-images/agar.mp4" background-video-loop="true" background-video-muted="true" background-color="#b20e10" background-opacity="0.5"}
+## Sulfonamides and Trimethoprim-Sulfamethoxazole: TMP-SMX {background-video="tmp-smx-images/agar.mp4" background-video-loop="true" background-video-muted="true" background-color="#b20e10" background-opacity="0.5"}
 
 <br>
 
