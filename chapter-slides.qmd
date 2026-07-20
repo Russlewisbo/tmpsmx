@@ -293,11 +293,9 @@ digraph folate_pathway {
 }
 ```
 
-**Why synergy occurs:**
-
-- Dual pathway blockade
-- Bacteriostatic → Bactericidal effect
-- Reduced resistance emergence
+::: aside
+Why synergy occurs: Dual pathway blockade, bacteriostatic → Bactericidal effect, reduced resistance emergence
+:::
 
 ## Key concept: Bacteriostatic vs bactericidal
 
@@ -308,6 +306,8 @@ digraph folate_pathway {
 | Effect     |  Bacteriostatic   | Bacteriostatic | **Bactericidal** |
 | Inhibition |       DHPS        |      DHFR      |       Both       |
 | Resistance |    Higher risk    |  Higher risk   |    Lower risk    |
+
+<br>
 
 ::: aside
 The synergistic combination achieves bactericidal activity against many
@@ -406,7 +406,6 @@ UTIs in high-resistance areas.
 
 ## Mechanisms of resistance-sulfonamides
 
-<br>
 
 ![](tmp-smx-images/sulfa_r.png){fig-align="center" width="800"}
 
@@ -417,8 +416,6 @@ elements like integrons.
 :::
 
 ## Mechanisms of resistance-trimethoprim (continued)
-
-<br>
 
 ![](tmp-smx-images/tmp_R.png){fig-align="center" width="800"}
 
@@ -447,6 +444,8 @@ decades of use.
 | Protein binding |   45%   |   70%   |
 | CSF penetration | 40-50%  | 25-50%  |
 
+<br>
+
 ::: aside
 The matched pharmacokinetics of TMP and SMX make them ideal combination
 partners. Both have excellent oral bioavailability and penetrate well
@@ -473,6 +472,77 @@ into tissues.
 The 1:5 ratio in the tablet produces approximately a 1:20 ratio in serum
 due to the different protein binding and distribution characteristics.
 This was carefully optimized in early clinical trials.
+:::
+
+## IV to oral conversion & formulations {.smaller}
+
+<br>
+
+**~90-100% oral bioavailability → convert IV to PO 1:1** (based on TMP)
+
+| Formulation (EU / Italy)         | TMP + SMX per unit        | Common label / pack        |
+|----------------------------------|:-------------------------:|----------------------------|
+| IV infusion (*fiala*)            | 16/80 mg per mL; 5 mL ampoule = 80/400 | "480 mg"        |
+| Tablet — standard (*compresse*)  | 160/800 mg                | "Bactrim forte" / 960 mg   |
+| Tablet — single strength         | 80/400 mg                 | "480 mg"                   |
+| Oral suspension (Italy)          | 80/400 mg per 5 mL        | 100 mL bottle              |
+
+<br>
+
+**Convert when:** tolerating oral intake, hemodynamically stable, GI
+absorption intact
+
+::: callout-important
+## Always dose by the TMP component
+
+TMP is the dose-limiting, dose-defining moiety. Prescribe and calculate
+mg/kg on **TMP**, not the combined product or the SMX. e.g. 15 mg/kg/day
+TMP for severe infections, divided q6-8h — the SMX follows the fixed 1:5
+ratio.
+:::
+
+::: callout-warning
+**EU vs US labelling trap:** European/Italian products are labelled by
+the **combined** amount ("480 mg" = 80 TMP + 400 SMX), while US
+references dose by **TMP alone**. Always specify the TMP dose to avoid
+5-fold errors.
+:::
+
+## Worked example: dosing by TMP {.smaller}
+
+<br>
+
+**70 kg patient, *Stenotrophomonas maltophilia* pneumonia, normal renal
+function**
+
+1.  Choose target: **10 mg/kg/day of TMP** → 70 × 10 = **700 mg TMP/day**
+2.  Divide q8h → ≈ **240 mg TMP per dose** (700 ÷ 3, rounded to whole ampoules)
+3.  Express in product units:
+
+| Route | Per dose (q8h)                | In "480 mg" units        |
+|-------|-------------------------------|--------------------------|
+| IV    | 3 ampoules (3 × 80 = 240 mg TMP) | 3 × 480 mg = 1440 mg  |
+| PO    | 1.5 standard tablets (160 mg TMP each) | 1.5 × 960 mg     |
+
+<br>
+
+Oral step-down uses the **same TMP dose** — no reduction for the switch.
+
+::: callout-note
+Note how the *same* regimen reads as "240 mg TMP q8h" (US style) or
+"1440 mg co-trimoxazole q8h" (EU style). Anchor on the TMP number and the
+two never conflict.
+:::
+
+::: callout-important
+## Per il contesto italiano
+
+La scheda tecnica italiana (*Bactrim perfusione*) esprime la posologia
+sul **totale** cotrimossazolo, tipicamente come mg/kg di entrambi i
+componenti (es. 20 mg/kg/die di trimetoprim + 100 mg/kg/die di
+sulfametossazolo, in 3–4 *fiale* ogni 6 ore). In reparto ordinate in
+*fiale* da "480 mg" (80 mg TMP), ma **calcolate e verificate sempre la
+dose sul trimetoprim** per evitare errori di un fattore 5.
 :::
 
 ## Tissue distribution
@@ -1173,12 +1243,12 @@ monitoring; long-term use requires more attention.
 
 Key points:
 
-::: incremental
+
 - CD4 \<200 = indication for PCP prophylaxis
 - TMP-SMX is first-line
 - Continue until CD4 \>200 for 3+ months on ART
 - Also provides protection against toxoplasmosis
-:::
+
 
 ::: aside
 TMP-SMX prophylaxis can be discontinued once CD4 counts have been \>200
@@ -1210,11 +1280,11 @@ considered if daily dosing causes GI intolerance.
 
 Better options:
 
-::: incremental
+
 - Nitrofurantoin 100 mg BID × 5 days
 - Fosfomycin 3 g single dose
 - If fluoroquinolone indicated: short course
-:::
+
 
 **Rule:** TMP-SMX only if local resistance \<20%
 
