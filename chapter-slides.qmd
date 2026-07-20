@@ -1,5 +1,5 @@
 ---
-title: "Sulfonamides and Trimethoprim; TMP-SMX"
+title: "Sulfonamides and Trimethoprim- Sulfamethoxazole (TMP-SMX)"
 author:
   - name: Russell E. Lewis
 date: today
